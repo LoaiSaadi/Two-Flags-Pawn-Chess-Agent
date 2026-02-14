@@ -1,5 +1,5 @@
 
-# Pawn Chess Agent (TwoFlags) — How to Run
+# Pawn Chess Agent (TwoFlags) - How to Run
 
 This project contains:
 - **Source code** (Python): `client.py`, `ab_agent.py`, `twoflags/` (game logic)
@@ -10,30 +10,29 @@ This project contains:
 ---
 
 ## Table of Contents
-- [Quick start: run a 100-game tournament (recommended)](#quick-start-run-a-100-game-tournament-recommended)
+- [Quick start: run a 100-game tournament](#quick-start-run-a-100-game-tournament)
 - [Flag explanations](#flag-explanations)
 - [How to read the agent output (during a game)](#how-to-read-the-agent-output-during-a-game)
 - [Starting from a custom position (Setup)](#starting-from-a-custom-position-setup)
 - [Logs: inspect & replay `.moves`](#logs-inspect--replay-moves)
-- [Rebuilding `dist/client.exe` (optional)](#rebuilding-distclientexe-optional)
 - [Bonus scripts (optional)](#bonus-scripts-optional)
 
 ---
 
-## Quick start: run a 100-game tournament (recommended)
+## Quick start: run a 100-game tournament
 
 Open **3 terminals** (Windows CMD / PowerShell) and run:
 
-### 1) Start the tournament server (Terminal 1)
+#### 1) Start the tournament server (Terminal 1)
 
 server2p.exe 9999 logs -v --accept-tournament-cmd --elo --elo-baseline 1500 --elo-k 40
 
-### 2) Run the tournament controller (Terminal 2)
+#### 2) Run the tournament controller (Terminal 2)
 Example: run a 100-game tournament as BLACK using the provided baseline client:
 
 ChessNet.exe --net 127.0.0.1 9999 --side b --tour 100 --random-openings --random-plies 1 --seed 1338
 
-### 3) Run my agent (Terminal 3)
+#### 3) Run my agent (Terminal 3)
 Play the opposite side (here: WHITE):
 
 dist\client.exe --net 127.0.0.1 9999 --side w -v --seed 1
