@@ -1,0 +1,62 @@
+# AISimplifiedChess move log (replayable)
+# Format: <ply> <W|B> <move4>
+
+# GAME 1 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2b3
+2 B a7b6
+3 W b3c4
+4 B h7h5
+5 W e2e4
+6 B c7c5
+7 W h2h4
+8 B b7a6
+9 W g2g4
+10 B h5g4
+11 W e4e5
+12 B a6a5
+13 W h4h5
+14 B c5d4
+15 W c4b5
+16 B g4h3
+17 W h5h6
+18 B g7h6
+19 W e5f6
+20 B e7f6
+21 W b2a3
+22 B d4c3
+23 W d2c3
+24 B f6f5
+25 W c3c4
+26 B h3g2
+27 W b5c6
+28 B g2f1
+29 W c6d7
+30 B b6c5
+31 W d7e8
+32 B a5b4
+33 W a3b4
+34 B c5b4
+35 W c4b5
+36 B h6h5
+37 W f2f3
+38 B h5h4
+39 W f3e4
+40 B f5e4
+41 W c2c4
+42 B b4b3
+43 W c4c5
+44 B e4f3
+45 W c5d6
+46 B f7f6
+47 W d6e7
+48 B b3a2
+49 W e7d8
+50 B a2b1
+51 W b5a6
+52 B h4h3
+53 W a6a7
+54 B f3g2
+55 W a7b8
+56 B g2h1
+RESULT BLACK reason=resignation plies=56
+

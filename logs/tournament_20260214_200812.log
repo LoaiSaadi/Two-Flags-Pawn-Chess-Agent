@@ -1,0 +1,43 @@
+[NET] Listening. Waiting for TWO clients...
+Client #1 connected
+Client #2 connected
+[HS] Handshaking CLIENT1...
+[HANDSHAKE] CLIENT1 OK
+[HANDSHAKE] CLIENT1 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT1 OK after Setup
+[HANDSHAKE] CLIENT1 -> Time 30
+[HANDSHAKE] CLIENT1 OK after Time
+[HS] Handshaking CLIENT2...
+[HANDSHAKE] CLIENT2 OK
+[HANDSHAKE] CLIENT2 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT2 OK after Setup
+[HANDSHAKE] CLIENT2 -> Time 30
+[HANDSHAKE] CLIENT2 OK after Time
+[READY] Both clients handshaken.
+[SINGLE] Game 1 START | WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 1] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> c7c5
+[MOVE] ply=3 WHITE -> b2b3
+[MOVE] ply=4 BLACK -> b7b6
+[MOVE] ply=5 WHITE -> c2c4
+[MOVE] ply=6 BLACK -> a7a5
+[MOVE] ply=7 WHITE -> d2d3
+[MOVE] ply=8 BLACK -> g7g5
+[MOVE] ply=9 WHITE -> e2e3
+[MOVE] ply=10 BLACK -> b6b5
+[MOVE] ply=11 WHITE -> a4b5
+[MOVE] ply=12 BLACK -> e7e6
+[MOVE] ply=13 WHITE -> b5b6
+[MOVE] ply=14 BLACK -> f7f6
+[MOVE] ply=15 WHITE -> b6b7
+[MOVE] ply=16 BLACK -> h7h6
+[MOVE] ply=17 WHITE -> b7b8
+[MOVE] ply=18 BLACK -> d7d5
+[END] RESIGNATION by WHITE at ply 19 | winner=BLACK
+[SINGLE] Game 1 END | reason=resignation winner=BLACK plies=18
+[STOP] Single game completed (default). Use --endless to keep playing.
+[STOP] Closing sockets.
+[LOG] logs\tournament_20260214_200812.log

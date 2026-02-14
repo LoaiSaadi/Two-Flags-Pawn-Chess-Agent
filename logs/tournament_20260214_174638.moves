@@ -1,0 +1,8 @@
+# AISimplifiedChess move log (replayable)
+# Format: <ply> <W|B> <move4>
+
+# GAME 1 WHITE=CLIENT1 BLACK=CLIENT2
+1 W e2e3
+2 B g6g5
+3 W a2a4
+4 B g5g4

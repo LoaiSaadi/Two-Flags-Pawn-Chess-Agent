@@ -1,0 +1,1036 @@
+[NET] Listening. Waiting for TWO clients...
+Client #1 connected
+Client #2 connected
+[HS] Handshaking CLIENT1...
+[HANDSHAKE] CLIENT1 OK
+[HANDSHAKE] CLIENT1 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT1 OK after Setup
+[HANDSHAKE] CLIENT1 -> Time 30
+[HANDSHAKE] CLIENT1 OK after Time
+[HS] Handshaking CLIENT2...
+[HANDSHAKE] CLIENT2 OK
+[HANDSHAKE] CLIENT2 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT2 OK after Setup
+[HANDSHAKE] CLIENT2 -> Time 30
+[HANDSHAKE] CLIENT2 OK after Time
+[READY] Both clients handshaken.
+[TOUR] Received pregame command: TOURNAMENT 30
+[TOUR] tournament accepted 30
+[TOUR] round start 1/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 1] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> e2e3
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> f7f5
+[MOVE] ply=5 WHITE -> b2b3
+[MOVE] ply=6 BLACK -> h7h5
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> e7e5
+[MOVE] ply=9 WHITE -> d2d4
+[MOVE] ply=10 BLACK -> e5e4
+[MOVE] ply=11 WHITE -> h2h4
+[MOVE] ply=12 BLACK -> d7d6
+[MOVE] ply=13 WHITE -> d4d5
+[MOVE] ply=14 BLACK -> c7c5
+[MOVE] ply=15 WHITE -> d5c6
+[MOVE] ply=16 BLACK -> b7c6
+[MOVE] ply=17 WHITE -> c4c5
+[END] RESIGNATION by BLACK at ply 18 | winner=WHITE
+[TOUR] round end 1/30 winner=WHITE reason=resignation plies=17 CLIENT1_wins=1 CLIENT2_wins=0
+[TOUR] round start 2/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 2] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> g7g5
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> g5g4
+[MOVE] ply=5 WHITE -> c2c4
+[MOVE] ply=6 BLACK -> a7a6
+[MOVE] ply=7 WHITE -> f2f3
+[MOVE] ply=8 BLACK -> g4f3
+[MOVE] ply=9 WHITE -> e2f3
+[MOVE] ply=10 BLACK -> b7b6
+[MOVE] ply=11 WHITE -> d2d4
+[MOVE] ply=12 BLACK -> a6a5
+[MOVE] ply=13 WHITE -> b4a5
+[MOVE] ply=14 BLACK -> b6a5
+[MOVE] ply=15 WHITE -> h2h4
+[MOVE] ply=16 BLACK -> c7c5
+[MOVE] ply=17 WHITE -> d4c5
+[MOVE] ply=18 BLACK -> e7e5
+[MOVE] ply=19 WHITE -> g2g4
+[MOVE] ply=20 BLACK -> f7f6
+[MOVE] ply=21 WHITE -> h4h5
+[MOVE] ply=22 BLACK -> e5e4
+[MOVE] ply=23 WHITE -> f3e4
+[MOVE] ply=24 BLACK -> f6f5
+[MOVE] ply=25 WHITE -> e4f5
+[MOVE] ply=26 BLACK -> d7d5
+[MOVE] ply=27 WHITE -> c4d5
+[MOVE] ply=28 BLACK -> h7h6
+[MOVE] ply=29 WHITE -> c5c6
+[END] RESIGNATION by BLACK at ply 30 | winner=WHITE
+[TOUR] round end 2/30 winner=WHITE reason=resignation plies=29 CLIENT1_wins=1 CLIENT2_wins=1
+[DRAIN] CLIENT1: exit
+[TOUR] round start 3/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 3] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> h2h3
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> b2b3
+[MOVE] ply=6 BLACK -> e7e5
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> f7f5
+[MOVE] ply=9 WHITE -> d2d3
+[MOVE] ply=10 BLACK -> g7g5
+[MOVE] ply=11 WHITE -> g2g3
+[MOVE] ply=12 BLACK -> h7h5
+[MOVE] ply=13 WHITE -> e2e3
+[MOVE] ply=14 BLACK -> f5f4
+[MOVE] ply=15 WHITE -> e3f4
+[MOVE] ply=16 BLACK -> e5f4
+[MOVE] ply=17 WHITE -> g3f4
+[MOVE] ply=18 BLACK -> g5f4
+[MOVE] ply=19 WHITE -> f2f3
+[MOVE] ply=20 BLACK -> h5h4
+[MOVE] ply=21 WHITE -> b3b4
+[MOVE] ply=22 BLACK -> a5b4
+[MOVE] ply=23 WHITE -> d3d4
+[MOVE] ply=24 BLACK -> b4b3
+[MOVE] ply=25 WHITE -> d4c5
+[MOVE] ply=26 BLACK -> b3b2
+[MOVE] ply=27 WHITE -> a4a5
+[MOVE] ply=28 BLACK -> b2b1
+[END] RESIGNATION by WHITE at ply 29 | winner=BLACK
+[TOUR] round end 3/30 winner=BLACK reason=resignation plies=28 CLIENT1_wins=1 CLIENT2_wins=2
+[TOUR] round start 4/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 4] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> b7b5
+[MOVE] ply=3 WHITE -> a4b5
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> c2c4
+[MOVE] ply=6 BLACK -> d7d6
+[MOVE] ply=7 WHITE -> h2h4
+[MOVE] ply=8 BLACK -> e7e5
+[MOVE] ply=9 WHITE -> g2g4
+[MOVE] ply=10 BLACK -> e5e4
+[MOVE] ply=11 WHITE -> d2d3
+[MOVE] ply=12 BLACK -> e4d3
+[MOVE] ply=13 WHITE -> e2d3
+[MOVE] ply=14 BLACK -> f7f6
+[MOVE] ply=15 WHITE -> f2f4
+[MOVE] ply=16 BLACK -> f6f5
+[MOVE] ply=17 WHITE -> g4f5
+[MOVE] ply=18 BLACK -> a7a5
+[MOVE] ply=19 WHITE -> b5a6
+[MOVE] ply=20 BLACK -> a5a4
+[MOVE] ply=21 WHITE -> a6a7
+[MOVE] ply=22 BLACK -> a4a3
+[MOVE] ply=23 WHITE -> a7a8
+[END] RESIGNATION by BLACK at ply 24 | winner=WHITE
+[TOUR] round end 4/30 winner=WHITE reason=resignation plies=23 CLIENT1_wins=1 CLIENT2_wins=3
+[TOUR] round start 5/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 5] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> b2b3
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> c2c4
+[MOVE] ply=6 BLACK -> e7e5
+[MOVE] ply=7 WHITE -> d2d3
+[MOVE] ply=8 BLACK -> h7h5
+[MOVE] ply=9 WHITE -> e2e3
+[MOVE] ply=10 BLACK -> g7g5
+[MOVE] ply=11 WHITE -> f2f3
+[MOVE] ply=12 BLACK -> f7f5
+[MOVE] ply=13 WHITE -> g2g3
+[MOVE] ply=14 BLACK -> h5h4
+[MOVE] ply=15 WHITE -> f3f4
+[MOVE] ply=16 BLACK -> e5f4
+[MOVE] ply=17 WHITE -> e3f4
+[MOVE] ply=18 BLACK -> g5f4
+[MOVE] ply=19 WHITE -> g3f4
+[MOVE] ply=20 BLACK -> h4h3
+[MOVE] ply=21 WHITE -> b3b4
+[MOVE] ply=22 BLACK -> c5b4
+[MOVE] ply=23 WHITE -> c4c5
+[MOVE] ply=24 BLACK -> b4b3
+[MOVE] ply=25 WHITE -> d3d4
+[MOVE] ply=26 BLACK -> b3b2
+[MOVE] ply=27 WHITE -> d4d5
+[MOVE] ply=28 BLACK -> b2b1
+[END] RESIGNATION by WHITE at ply 29 | winner=BLACK
+[TOUR] round end 5/30 winner=BLACK reason=resignation plies=28 CLIENT1_wins=1 CLIENT2_wins=4
+[TOUR] round start 6/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 6] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> e7e5
+[MOVE] ply=3 WHITE -> c2c4
+[MOVE] ply=4 BLACK -> e5e4
+[MOVE] ply=5 WHITE -> d2d3
+[MOVE] ply=6 BLACK -> e4d3
+[MOVE] ply=7 WHITE -> e2d3
+[MOVE] ply=8 BLACK -> a7a5
+[MOVE] ply=9 WHITE -> f2f4
+[MOVE] ply=10 BLACK -> b7b6
+[MOVE] ply=11 WHITE -> g2g4
+[MOVE] ply=12 BLACK -> c7c5
+[MOVE] ply=13 WHITE -> h2h4
+[MOVE] ply=14 BLACK -> f7f5
+[MOVE] ply=15 WHITE -> g4f5
+[MOVE] ply=16 BLACK -> h7h5
+[MOVE] ply=17 WHITE -> b2b3
+[MOVE] ply=18 BLACK -> d7d6
+[MOVE] ply=19 WHITE -> b3b4
+[MOVE] ply=20 BLACK -> a5b4
+[MOVE] ply=21 WHITE -> d3d4
+[MOVE] ply=22 BLACK -> c5d4
+[MOVE] ply=23 WHITE -> c4c5
+[MOVE] ply=24 BLACK -> d6c5
+[MOVE] ply=25 WHITE -> a4a5
+[MOVE] ply=26 BLACK -> b6a5
+[MOVE] ply=27 WHITE -> f5f6
+[MOVE] ply=28 BLACK -> g7f6
+[MOVE] ply=29 WHITE -> f4f5
+[MOVE] ply=30 BLACK -> b4b3
+[END] RESIGNATION by WHITE at ply 31 | winner=BLACK
+[TOUR] round end 6/30 winner=BLACK reason=resignation plies=30 CLIENT1_wins=2 CLIENT2_wins=4
+[TOUR] round start 7/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 7] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> f2f3
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> b2b3
+[MOVE] ply=6 BLACK -> h7h5
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> f7f5
+[MOVE] ply=9 WHITE -> e2e3
+[MOVE] ply=10 BLACK -> b7b6
+[MOVE] ply=11 WHITE -> d2d3
+[MOVE] ply=12 BLACK -> g7g5
+[MOVE] ply=13 WHITE -> g2g3
+[MOVE] ply=14 BLACK -> d7d6
+[MOVE] ply=15 WHITE -> f3f4
+[MOVE] ply=16 BLACK -> g5g4
+[MOVE] ply=17 WHITE -> d3d4
+[MOVE] ply=18 BLACK -> c5d4
+[MOVE] ply=19 WHITE -> e3d4
+[MOVE] ply=20 BLACK -> b6b5
+[MOVE] ply=21 WHITE -> a4b5
+[MOVE] ply=22 BLACK -> e7e6
+[MOVE] ply=23 WHITE -> b5b6
+[MOVE] ply=24 BLACK -> e6e5
+[MOVE] ply=25 WHITE -> b6b7
+[MOVE] ply=26 BLACK -> e5d4
+[MOVE] ply=27 WHITE -> b7b8
+[MOVE] ply=28 BLACK -> d4d3
+[END] RESIGNATION by WHITE at ply 29 | winner=BLACK
+[TOUR] round end 7/30 winner=BLACK reason=resignation plies=28 CLIENT1_wins=2 CLIENT2_wins=5
+[TOUR] round start 8/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 8] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> g7g6
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> g6g5
+[MOVE] ply=5 WHITE -> e2e4
+[MOVE] ply=6 BLACK -> g5g4
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> a7a6
+[MOVE] ply=9 WHITE -> f2f3
+[MOVE] ply=10 BLACK -> g4f3
+[MOVE] ply=11 WHITE -> g2f3
+[MOVE] ply=12 BLACK -> b7b6
+[MOVE] ply=13 WHITE -> d2d4
+[MOVE] ply=14 BLACK -> a6a5
+[MOVE] ply=15 WHITE -> b4a5
+[MOVE] ply=16 BLACK -> b6a5
+[MOVE] ply=17 WHITE -> h2h4
+[MOVE] ply=18 BLACK -> c7c5
+[MOVE] ply=19 WHITE -> d4c5
+[MOVE] ply=20 BLACK -> e7e5
+[MOVE] ply=21 WHITE -> h4h5
+[MOVE] ply=22 BLACK -> h7h6
+[MOVE] ply=23 WHITE -> f3f4
+[MOVE] ply=24 BLACK -> e5f4
+[MOVE] ply=25 WHITE -> e4e5
+[MOVE] ply=26 BLACK -> f4f3
+[MOVE] ply=27 WHITE -> c5c6
+[MOVE] ply=28 BLACK -> d7c6
+[MOVE] ply=29 WHITE -> c4c5
+[MOVE] ply=30 BLACK -> f3f2
+[MOVE] ply=31 WHITE -> e5e6
+[MOVE] ply=32 BLACK -> f7e6
+[END] RESIGNATION by WHITE at ply 33 | winner=BLACK
+[TOUR] round end 8/30 winner=BLACK reason=resignation plies=32 CLIENT1_wins=3 CLIENT2_wins=5
+[TOUR] round start 9/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 9] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> d2d4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> d7d5
+[MOVE] ply=5 WHITE -> c2c3
+[MOVE] ply=6 BLACK -> f7f5
+[MOVE] ply=7 WHITE -> b2b4
+[MOVE] ply=8 BLACK -> a5b4
+[MOVE] ply=9 WHITE -> c3b4
+[MOVE] ply=10 BLACK -> g7g5
+[MOVE] ply=11 WHITE -> e2e3
+[MOVE] ply=12 BLACK -> b7b6
+[MOVE] ply=13 WHITE -> a4a5
+[MOVE] ply=14 BLACK -> b6a5
+[MOVE] ply=15 WHITE -> b4a5
+[MOVE] ply=16 BLACK -> h7h6
+[MOVE] ply=17 WHITE -> a5a6
+[MOVE] ply=18 BLACK -> f5f4
+[MOVE] ply=19 WHITE -> a6a7
+[MOVE] ply=20 BLACK -> f4e3
+[MOVE] ply=21 WHITE -> a7a8
+[MOVE] ply=22 BLACK -> e3f2
+[END] RESIGNATION by WHITE at ply 23 | winner=BLACK
+[TOUR] round end 9/30 winner=BLACK reason=resignation plies=22 CLIENT1_wins=3 CLIENT2_wins=6
+[TOUR] round start 10/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 10] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> e7e6
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> e6e5
+[MOVE] ply=5 WHITE -> e2e4
+[MOVE] ply=6 BLACK -> a7a6
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> b7b6
+[MOVE] ply=9 WHITE -> g2g4
+[MOVE] ply=10 BLACK -> a6a5
+[MOVE] ply=11 WHITE -> b4a5
+[MOVE] ply=12 BLACK -> b6a5
+[MOVE] ply=13 WHITE -> h2h4
+[MOVE] ply=14 BLACK -> c7c5
+[MOVE] ply=15 WHITE -> f2f3
+[MOVE] ply=16 BLACK -> f7f6
+[MOVE] ply=17 WHITE -> g4g5
+[MOVE] ply=18 BLACK -> f6g5
+[MOVE] ply=19 WHITE -> h4g5
+[MOVE] ply=20 BLACK -> d7d6
+[MOVE] ply=21 WHITE -> d2d3
+[MOVE] ply=22 BLACK -> g7g6
+[MOVE] ply=23 WHITE -> f3f4
+[MOVE] ply=24 BLACK -> e5f4
+[MOVE] ply=25 WHITE -> d3d4
+[MOVE] ply=26 BLACK -> f4f3
+[MOVE] ply=27 WHITE -> d4d5
+[MOVE] ply=28 BLACK -> f3f2
+[MOVE] ply=29 WHITE -> e4e5
+[MOVE] ply=30 BLACK -> f2f1
+[MOVE] ply=31 WHITE -> e5d6
+[END] RESIGNATION by BLACK at ply 32 | winner=WHITE
+[TOUR] round end 10/30 winner=WHITE reason=resignation plies=31 CLIENT1_wins=3 CLIENT2_wins=7
+[TOUR] round start 11/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 11] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> d2d4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> d7d5
+[MOVE] ply=5 WHITE -> c2c3
+[MOVE] ply=6 BLACK -> f7f5
+[MOVE] ply=7 WHITE -> b2b4
+[MOVE] ply=8 BLACK -> a5b4
+[MOVE] ply=9 WHITE -> c3b4
+[MOVE] ply=10 BLACK -> g7g5
+[MOVE] ply=11 WHITE -> e2e3
+[MOVE] ply=12 BLACK -> b7b6
+[MOVE] ply=13 WHITE -> a4a5
+[MOVE] ply=14 BLACK -> b6a5
+[MOVE] ply=15 WHITE -> b4a5
+[MOVE] ply=16 BLACK -> c7c6
+[MOVE] ply=17 WHITE -> a5a6
+[MOVE] ply=18 BLACK -> h7h5
+[MOVE] ply=19 WHITE -> a6a7
+[MOVE] ply=20 BLACK -> f5f4
+[MOVE] ply=21 WHITE -> a7a8
+[MOVE] ply=22 BLACK -> f4e3
+[END] RESIGNATION by WHITE at ply 23 | winner=BLACK
+[TOUR] round end 11/30 winner=BLACK reason=resignation plies=22 CLIENT1_wins=3 CLIENT2_wins=8
+[TOUR] round start 12/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 12] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> c2c4
+[MOVE] ply=4 BLACK -> b7b6
+[MOVE] ply=5 WHITE -> g2g4
+[MOVE] ply=6 BLACK -> c7c5
+[MOVE] ply=7 WHITE -> f2f4
+[MOVE] ply=8 BLACK -> d7d6
+[MOVE] ply=9 WHITE -> e2e3
+[MOVE] ply=10 BLACK -> g7g6
+[MOVE] ply=11 WHITE -> d2d4
+[MOVE] ply=12 BLACK -> c5d4
+[MOVE] ply=13 WHITE -> e3d4
+[MOVE] ply=14 BLACK -> g6g5
+[MOVE] ply=15 WHITE -> f4g5
+[MOVE] ply=16 BLACK -> e7e5
+[MOVE] ply=17 WHITE -> d4e5
+[MOVE] ply=18 BLACK -> d6e5
+[MOVE] ply=19 WHITE -> c4c5
+[MOVE] ply=20 BLACK -> b6c5
+[MOVE] ply=21 WHITE -> h2h3
+[MOVE] ply=22 BLACK -> e5e4
+[MOVE] ply=23 WHITE -> b2b4
+[MOVE] ply=24 BLACK -> e4e3
+[MOVE] ply=25 WHITE -> b4a5
+[MOVE] ply=26 BLACK -> e3e2
+[MOVE] ply=27 WHITE -> h3h4
+[MOVE] ply=28 BLACK -> e2e1
+[MOVE] ply=29 WHITE -> h4h5
+[END] RESIGNATION by BLACK at ply 30 | winner=WHITE
+[TOUR] round end 12/30 winner=WHITE reason=resignation plies=29 CLIENT1_wins=3 CLIENT2_wins=9
+[TOUR] round start 13/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 13] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> c2c4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> b2b3
+[MOVE] ply=6 BLACK -> e7e5
+[MOVE] ply=7 WHITE -> d2d3
+[MOVE] ply=8 BLACK -> h7h5
+[MOVE] ply=9 WHITE -> e2e3
+[MOVE] ply=10 BLACK -> g7g5
+[MOVE] ply=11 WHITE -> f2f3
+[MOVE] ply=12 BLACK -> f7f5
+[MOVE] ply=13 WHITE -> g2g3
+[MOVE] ply=14 BLACK -> h5h4
+[MOVE] ply=15 WHITE -> f3f4
+[MOVE] ply=16 BLACK -> e5f4
+[MOVE] ply=17 WHITE -> e3f4
+[MOVE] ply=18 BLACK -> g5f4
+[MOVE] ply=19 WHITE -> g3f4
+[MOVE] ply=20 BLACK -> h4h3
+[MOVE] ply=21 WHITE -> b3b4
+[MOVE] ply=22 BLACK -> a5b4
+[MOVE] ply=23 WHITE -> d3d4
+[MOVE] ply=24 BLACK -> b4b3
+[MOVE] ply=25 WHITE -> d4c5
+[MOVE] ply=26 BLACK -> b3b2
+[MOVE] ply=27 WHITE -> a4a5
+[MOVE] ply=28 BLACK -> b2b1
+[END] RESIGNATION by WHITE at ply 29 | winner=BLACK
+[TOUR] round end 13/30 winner=BLACK reason=resignation plies=28 CLIENT1_wins=3 CLIENT2_wins=10
+[TOUR] round start 14/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 14] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> c2c4
+[MOVE] ply=4 BLACK -> b7b6
+[MOVE] ply=5 WHITE -> h2h4
+[MOVE] ply=6 BLACK -> c7c5
+[MOVE] ply=7 WHITE -> e2e4
+[MOVE] ply=8 BLACK -> d7d6
+[MOVE] ply=9 WHITE -> f2f3
+[MOVE] ply=10 BLACK -> e7e6
+[MOVE] ply=11 WHITE -> g2g4
+[MOVE] ply=12 BLACK -> f7f6
+[MOVE] ply=13 WHITE -> h4h5
+[MOVE] ply=14 BLACK -> g7g6
+[MOVE] ply=15 WHITE -> h5h6
+[MOVE] ply=16 BLACK -> f6f5
+[MOVE] ply=17 WHITE -> e4f5
+[MOVE] ply=18 BLACK -> e6f5
+[MOVE] ply=19 WHITE -> g4g5
+[MOVE] ply=20 BLACK -> f5f4
+[MOVE] ply=21 WHITE -> b2b3
+[MOVE] ply=22 BLACK -> b6b5
+[MOVE] ply=23 WHITE -> a4b5
+[MOVE] ply=24 BLACK -> a5a4
+[MOVE] ply=25 WHITE -> b3a4
+[MOVE] ply=26 BLACK -> d6d5
+[MOVE] ply=27 WHITE -> d2d3
+[MOVE] ply=28 BLACK -> d5c4
+[MOVE] ply=29 WHITE -> d3c4
+[END] RESIGNATION by BLACK at ply 30 | winner=WHITE
+[TOUR] round end 14/30 winner=WHITE reason=resignation plies=29 CLIENT1_wins=3 CLIENT2_wins=11
+[DRAIN] CLIENT1: exit
+[TOUR] round start 15/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 15] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> g2g4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> b2b3
+[MOVE] ply=6 BLACK -> e7e5
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> g7g5
+[MOVE] ply=9 WHITE -> d2d3
+[MOVE] ply=10 BLACK -> b7b6
+[MOVE] ply=11 WHITE -> e2e3
+[MOVE] ply=12 BLACK -> d7d6
+[MOVE] ply=13 WHITE -> e3e4
+[MOVE] ply=14 BLACK -> f7f6
+[MOVE] ply=15 WHITE -> f2f3
+[MOVE] ply=16 BLACK -> b6b5
+[MOVE] ply=17 WHITE -> a4b5
+[MOVE] ply=18 BLACK -> f6f5
+[MOVE] ply=19 WHITE -> b5b6
+[MOVE] ply=20 BLACK -> f5e4
+[MOVE] ply=21 WHITE -> b6b7
+[MOVE] ply=22 BLACK -> e4d3
+[MOVE] ply=23 WHITE -> b7b8
+[MOVE] ply=24 BLACK -> d3d2
+[END] RESIGNATION by WHITE at ply 25 | winner=BLACK
+[TOUR] round end 15/30 winner=BLACK reason=resignation plies=24 CLIENT1_wins=3 CLIENT2_wins=12
+[TOUR] round start 16/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 16] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> f7f6
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> f6f5
+[MOVE] ply=5 WHITE -> c2c4
+[MOVE] ply=6 BLACK -> f5f4
+[MOVE] ply=7 WHITE -> d2d4
+[MOVE] ply=8 BLACK -> a7a6
+[MOVE] ply=9 WHITE -> h2h4
+[MOVE] ply=10 BLACK -> b7b6
+[MOVE] ply=11 WHITE -> e2e3
+[MOVE] ply=12 BLACK -> f4e3
+[MOVE] ply=13 WHITE -> f2e3
+[MOVE] ply=14 BLACK -> a6a5
+[MOVE] ply=15 WHITE -> b4a5
+[MOVE] ply=16 BLACK -> b6a5
+[MOVE] ply=17 WHITE -> g2g4
+[MOVE] ply=18 BLACK -> c7c5
+[MOVE] ply=19 WHITE -> h4h5
+[MOVE] ply=20 BLACK -> c5d4
+[MOVE] ply=21 WHITE -> e3d4
+[MOVE] ply=22 BLACK -> h7h6
+[MOVE] ply=23 WHITE -> c4c5
+[MOVE] ply=24 BLACK -> e7e6
+[MOVE] ply=25 WHITE -> d4d5
+[MOVE] ply=26 BLACK -> e6d5
+[MOVE] ply=27 WHITE -> c5c6
+[MOVE] ply=28 BLACK -> d7c6
+[MOVE] ply=29 WHITE -> g4g5
+[MOVE] ply=30 BLACK -> d5d4
+[MOVE] ply=31 WHITE -> g5h6
+[MOVE] ply=32 BLACK -> g7h6
+[END] RESIGNATION by WHITE at ply 33 | winner=BLACK
+[TOUR] round end 16/30 winner=BLACK reason=resignation plies=32 CLIENT1_wins=4 CLIENT2_wins=12
+[TOUR] round start 17/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 17] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> f2f3
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> b2b3
+[MOVE] ply=6 BLACK -> e7e5
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> f7f5
+[MOVE] ply=9 WHITE -> g2g4
+[MOVE] ply=10 BLACK -> f5g4
+[MOVE] ply=11 WHITE -> f3g4
+[MOVE] ply=12 BLACK -> g7g6
+[MOVE] ply=13 WHITE -> g4g5
+[MOVE] ply=14 BLACK -> e5e4
+[MOVE] ply=15 WHITE -> e2e3
+[MOVE] ply=16 BLACK -> b7b5
+[MOVE] ply=17 WHITE -> a4b5
+[MOVE] ply=18 BLACK -> h7h5
+[MOVE] ply=19 WHITE -> g5h6
+[MOVE] ply=20 BLACK -> h5h4
+[MOVE] ply=21 WHITE -> h6h7
+[MOVE] ply=22 BLACK -> d7d5
+[MOVE] ply=23 WHITE -> h7h8
+[MOVE] ply=24 BLACK -> d5c4
+[END] RESIGNATION by WHITE at ply 25 | winner=BLACK
+[TOUR] round end 17/30 winner=BLACK reason=resignation plies=24 CLIENT1_wins=4 CLIENT2_wins=13
+[TOUR] round start 18/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 18] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> e7e5
+[MOVE] ply=3 WHITE -> c2c4
+[MOVE] ply=4 BLACK -> e5e4
+[MOVE] ply=5 WHITE -> b2b4
+[MOVE] ply=6 BLACK -> a7a6
+[MOVE] ply=7 WHITE -> d2d3
+[MOVE] ply=8 BLACK -> e4d3
+[MOVE] ply=9 WHITE -> e2d3
+[MOVE] ply=10 BLACK -> b7b6
+[MOVE] ply=11 WHITE -> f2f4
+[MOVE] ply=12 BLACK -> a6a5
+[MOVE] ply=13 WHITE -> b4a5
+[MOVE] ply=14 BLACK -> b6a5
+[MOVE] ply=15 WHITE -> g2g4
+[MOVE] ply=16 BLACK -> c7c5
+[MOVE] ply=17 WHITE -> h2h3
+[MOVE] ply=18 BLACK -> f7f5
+[MOVE] ply=19 WHITE -> g4f5
+[MOVE] ply=20 BLACK -> h7h6
+[MOVE] ply=21 WHITE -> h3h4
+[MOVE] ply=22 BLACK -> h6h5
+[MOVE] ply=23 WHITE -> d3d4
+[MOVE] ply=24 BLACK -> c5d4
+[MOVE] ply=25 WHITE -> c4c5
+[MOVE] ply=26 BLACK -> d4d3
+[MOVE] ply=27 WHITE -> f5f6
+[MOVE] ply=28 BLACK -> g7f6
+[MOVE] ply=29 WHITE -> f4f5
+[MOVE] ply=30 BLACK -> d3d2
+[MOVE] ply=31 WHITE -> c5c6
+[MOVE] ply=32 BLACK -> d7c6
+[END] RESIGNATION by WHITE at ply 33 | winner=BLACK
+[TOUR] round end 18/30 winner=BLACK reason=resignation plies=32 CLIENT1_wins=5 CLIENT2_wins=13
+[TOUR] round start 19/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 19] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> e2e4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> e7e5
+[MOVE] ply=5 WHITE -> b2b3
+[MOVE] ply=6 BLACK -> c7c5
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> h7h5
+[MOVE] ply=9 WHITE -> f2f3
+[MOVE] ply=10 BLACK -> h5h4
+[MOVE] ply=11 WHITE -> g2g3
+[MOVE] ply=12 BLACK -> h4g3
+[MOVE] ply=13 WHITE -> h2g3
+[MOVE] ply=14 BLACK -> g7g5
+[MOVE] ply=15 WHITE -> d2d3
+[MOVE] ply=16 BLACK -> d7d6
+[MOVE] ply=17 WHITE -> f3f4
+[MOVE] ply=18 BLACK -> e5f4
+[MOVE] ply=19 WHITE -> g3f4
+[MOVE] ply=20 BLACK -> g5f4
+[MOVE] ply=21 WHITE -> b3b4
+[MOVE] ply=22 BLACK -> f4f3
+[MOVE] ply=23 WHITE -> d3d4
+[MOVE] ply=24 BLACK -> f3f2
+[MOVE] ply=25 WHITE -> b4c5
+[MOVE] ply=26 BLACK -> f2f1
+[END] RESIGNATION by WHITE at ply 27 | winner=BLACK
+[TOUR] round end 19/30 winner=BLACK reason=resignation plies=26 CLIENT1_wins=5 CLIENT2_wins=14
+[TOUR] round start 20/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 20] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> e7e5
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> e5e4
+[MOVE] ply=5 WHITE -> c2c4
+[MOVE] ply=6 BLACK -> a7a6
+[MOVE] ply=7 WHITE -> d2d3
+[MOVE] ply=8 BLACK -> e4d3
+[MOVE] ply=9 WHITE -> e2d3
+[MOVE] ply=10 BLACK -> b7b6
+[MOVE] ply=11 WHITE -> f2f4
+[MOVE] ply=12 BLACK -> a6a5
+[MOVE] ply=13 WHITE -> b4a5
+[MOVE] ply=14 BLACK -> b6a5
+[MOVE] ply=15 WHITE -> g2g4
+[MOVE] ply=16 BLACK -> c7c5
+[MOVE] ply=17 WHITE -> h2h3
+[MOVE] ply=18 BLACK -> f7f5
+[MOVE] ply=19 WHITE -> g4f5
+[MOVE] ply=20 BLACK -> h7h6
+[MOVE] ply=21 WHITE -> h3h4
+[MOVE] ply=22 BLACK -> h6h5
+[MOVE] ply=23 WHITE -> f5f6
+[MOVE] ply=24 BLACK -> g7f6
+[MOVE] ply=25 WHITE -> f4f5
+[MOVE] ply=26 BLACK -> d7d6
+[MOVE] ply=27 WHITE -> d3d4
+[MOVE] ply=28 BLACK -> c5d4
+[MOVE] ply=29 WHITE -> c4c5
+[MOVE] ply=30 BLACK -> d6c5
+[END] RESIGNATION by WHITE at ply 31 | winner=BLACK
+[TOUR] round end 20/30 winner=BLACK reason=resignation plies=30 CLIENT1_wins=6 CLIENT2_wins=14
+[TOUR] round start 21/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 21] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a3
+[MOVE] ply=2 BLACK -> b7b5
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> e7e5
+[MOVE] ply=5 WHITE -> c2c3
+[MOVE] ply=6 BLACK -> d7d5
+[MOVE] ply=7 WHITE -> d2d4
+[MOVE] ply=8 BLACK -> f7f6
+[MOVE] ply=9 WHITE -> e2e3
+[MOVE] ply=10 BLACK -> h7h5
+[MOVE] ply=11 WHITE -> d4e5
+[MOVE] ply=12 BLACK -> f6e5
+[MOVE] ply=13 WHITE -> f2f4
+[MOVE] ply=14 BLACK -> e5e4
+[MOVE] ply=15 WHITE -> g2g3
+[MOVE] ply=16 BLACK -> g7g6
+[MOVE] ply=17 WHITE -> h2h3
+[MOVE] ply=18 BLACK -> a7a6
+[MOVE] ply=19 WHITE -> g3g4
+[MOVE] ply=20 BLACK -> c7c6
+[MOVE] ply=21 WHITE -> f4f5
+[MOVE] ply=22 BLACK -> g6f5
+[MOVE] ply=23 WHITE -> g4h5
+[MOVE] ply=24 BLACK -> f5f4
+[MOVE] ply=25 WHITE -> h5h6
+[MOVE] ply=26 BLACK -> f4e3
+[MOVE] ply=27 WHITE -> h6h7
+[MOVE] ply=28 BLACK -> e3e2
+[MOVE] ply=29 WHITE -> h7h8
+[MOVE] ply=30 BLACK -> e2e1
+[END] RESIGNATION by WHITE at ply 31 | winner=BLACK
+[TOUR] round end 21/30 winner=BLACK reason=resignation plies=30 CLIENT1_wins=6 CLIENT2_wins=15
+[TOUR] round start 22/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 22] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> e7e6
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> e6e5
+[MOVE] ply=5 WHITE -> e2e4
+[MOVE] ply=6 BLACK -> a7a6
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> b7b6
+[MOVE] ply=9 WHITE -> h2h4
+[MOVE] ply=10 BLACK -> a6a5
+[MOVE] ply=11 WHITE -> b4a5
+[MOVE] ply=12 BLACK -> b6a5
+[MOVE] ply=13 WHITE -> c4c5
+[MOVE] ply=14 BLACK -> d7d6
+[MOVE] ply=15 WHITE -> c5c6
+[MOVE] ply=16 BLACK -> f7f6
+[MOVE] ply=17 WHITE -> h4h5
+[MOVE] ply=18 BLACK -> g7g6
+[MOVE] ply=19 WHITE -> g2g4
+[MOVE] ply=20 BLACK -> g6h5
+[MOVE] ply=21 WHITE -> g4h5
+[MOVE] ply=22 BLACK -> h7h6
+[MOVE] ply=23 WHITE -> d2d3
+[MOVE] ply=24 BLACK -> d6d5
+[MOVE] ply=25 WHITE -> e4d5
+[MOVE] ply=26 BLACK -> f6f5
+[MOVE] ply=27 WHITE -> d5d6
+[MOVE] ply=28 BLACK -> f5f4
+[MOVE] ply=29 WHITE -> d6c7
+[MOVE] ply=30 BLACK -> f4f3
+[MOVE] ply=31 WHITE -> c7c8
+[END] RESIGNATION by BLACK at ply 32 | winner=WHITE
+[TOUR] round end 22/30 winner=WHITE reason=resignation plies=31 CLIENT1_wins=6 CLIENT2_wins=16
+[TOUR] round start 23/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 23] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> b2b3
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> c2c4
+[MOVE] ply=6 BLACK -> e7e5
+[MOVE] ply=7 WHITE -> d2d3
+[MOVE] ply=8 BLACK -> h7h5
+[MOVE] ply=9 WHITE -> e2e3
+[MOVE] ply=10 BLACK -> g7g5
+[MOVE] ply=11 WHITE -> f2f3
+[MOVE] ply=12 BLACK -> f7f5
+[MOVE] ply=13 WHITE -> g2g3
+[MOVE] ply=14 BLACK -> h5h4
+[MOVE] ply=15 WHITE -> f3f4
+[MOVE] ply=16 BLACK -> e5f4
+[MOVE] ply=17 WHITE -> e3f4
+[MOVE] ply=18 BLACK -> g5f4
+[MOVE] ply=19 WHITE -> g3f4
+[MOVE] ply=20 BLACK -> h4h3
+[MOVE] ply=21 WHITE -> b3b4
+[MOVE] ply=22 BLACK -> c5b4
+[MOVE] ply=23 WHITE -> c4c5
+[MOVE] ply=24 BLACK -> b4b3
+[MOVE] ply=25 WHITE -> d3d4
+[MOVE] ply=26 BLACK -> b3b2
+[MOVE] ply=27 WHITE -> d4d5
+[MOVE] ply=28 BLACK -> b2b1
+[END] RESIGNATION by WHITE at ply 29 | winner=BLACK
+[TOUR] round end 23/30 winner=BLACK reason=resignation plies=28 CLIENT1_wins=6 CLIENT2_wins=17
+[TOUR] round start 24/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 24] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> c7c5
+[MOVE] ply=3 WHITE -> c2c4
+[MOVE] ply=4 BLACK -> a7a5
+[MOVE] ply=5 WHITE -> e2e4
+[MOVE] ply=6 BLACK -> b7b6
+[MOVE] ply=7 WHITE -> f2f4
+[MOVE] ply=8 BLACK -> d7d6
+[MOVE] ply=9 WHITE -> g2g4
+[MOVE] ply=10 BLACK -> e7e6
+[MOVE] ply=11 WHITE -> h2h4
+[MOVE] ply=12 BLACK -> e6e5
+[MOVE] ply=13 WHITE -> f4f5
+[MOVE] ply=14 BLACK -> f7f6
+[MOVE] ply=15 WHITE -> h4h5
+[MOVE] ply=16 BLACK -> h7h6
+[MOVE] ply=17 WHITE -> b2b3
+[MOVE] ply=18 BLACK -> b6b5
+[MOVE] ply=19 WHITE -> a4b5
+[MOVE] ply=20 BLACK -> a5a4
+[MOVE] ply=21 WHITE -> b5b6
+[MOVE] ply=22 BLACK -> a4b3
+[MOVE] ply=23 WHITE -> b6b7
+[MOVE] ply=24 BLACK -> b3b2
+[MOVE] ply=25 WHITE -> b7b8
+[END] RESIGNATION by BLACK at ply 26 | winner=WHITE
+[TOUR] round end 24/30 winner=WHITE reason=resignation plies=25 CLIENT1_wins=6 CLIENT2_wins=18
+[TOUR] round start 25/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 25] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> g2g4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> b2b3
+[MOVE] ply=6 BLACK -> e7e5
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> g7g5
+[MOVE] ply=9 WHITE -> d2d3
+[MOVE] ply=10 BLACK -> b7b6
+[MOVE] ply=11 WHITE -> e2e3
+[MOVE] ply=12 BLACK -> f7f6
+[MOVE] ply=13 WHITE -> e3e4
+[MOVE] ply=14 BLACK -> h7h6
+[MOVE] ply=15 WHITE -> f2f3
+[MOVE] ply=16 BLACK -> b6b5
+[MOVE] ply=17 WHITE -> a4b5
+[MOVE] ply=18 BLACK -> h6h5
+[MOVE] ply=19 WHITE -> b5b6
+[MOVE] ply=20 BLACK -> h5h4
+[MOVE] ply=21 WHITE -> b6b7
+[MOVE] ply=22 BLACK -> d7d5
+[MOVE] ply=23 WHITE -> b7b8
+[MOVE] ply=24 BLACK -> d5c4
+[END] RESIGNATION by WHITE at ply 25 | winner=BLACK
+[TOUR] round end 25/30 winner=BLACK reason=resignation plies=24 CLIENT1_wins=6 CLIENT2_wins=19
+[TOUR] round start 26/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 26] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> e7e6
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> e6e5
+[MOVE] ply=5 WHITE -> e2e4
+[MOVE] ply=6 BLACK -> a7a6
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> b7b6
+[MOVE] ply=9 WHITE -> g2g4
+[MOVE] ply=10 BLACK -> a6a5
+[MOVE] ply=11 WHITE -> b4a5
+[MOVE] ply=12 BLACK -> b6a5
+[MOVE] ply=13 WHITE -> h2h4
+[MOVE] ply=14 BLACK -> c7c5
+[MOVE] ply=15 WHITE -> f2f3
+[MOVE] ply=16 BLACK -> f7f6
+[MOVE] ply=17 WHITE -> g4g5
+[MOVE] ply=18 BLACK -> f6g5
+[MOVE] ply=19 WHITE -> h4g5
+[MOVE] ply=20 BLACK -> d7d6
+[MOVE] ply=21 WHITE -> d2d3
+[MOVE] ply=22 BLACK -> g7g6
+[MOVE] ply=23 WHITE -> d3d4
+[MOVE] ply=24 BLACK -> c5d4
+[MOVE] ply=25 WHITE -> c4c5
+[MOVE] ply=26 BLACK -> d4d3
+[MOVE] ply=27 WHITE -> c5d6
+[MOVE] ply=28 BLACK -> d3d2
+[MOVE] ply=29 WHITE -> f3f4
+[MOVE] ply=30 BLACK -> d2d1
+[MOVE] ply=31 WHITE -> f4e5
+[END] RESIGNATION by BLACK at ply 32 | winner=WHITE
+[TOUR] round end 26/30 winner=WHITE reason=resignation plies=31 CLIENT1_wins=6 CLIENT2_wins=20
+[TOUR] round start 27/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 27] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a3
+[MOVE] ply=2 BLACK -> b7b5
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> d7d5
+[MOVE] ply=5 WHITE -> c2c3
+[MOVE] ply=6 BLACK -> g7g5
+[MOVE] ply=7 WHITE -> d2d4
+[MOVE] ply=8 BLACK -> f7f5
+[MOVE] ply=9 WHITE -> e2e3
+[MOVE] ply=10 BLACK -> g5g4
+[MOVE] ply=11 WHITE -> f2f3
+[MOVE] ply=12 BLACK -> h7h5
+[MOVE] ply=13 WHITE -> h2h3
+[MOVE] ply=14 BLACK -> g4g3
+[MOVE] ply=15 WHITE -> h3h4
+[MOVE] ply=16 BLACK -> c7c6
+[MOVE] ply=17 WHITE -> e3e4
+[MOVE] ply=18 BLACK -> d5e4
+[MOVE] ply=19 WHITE -> f3e4
+[MOVE] ply=20 BLACK -> f5e4
+[MOVE] ply=21 WHITE -> a3a4
+[MOVE] ply=22 BLACK -> e4e3
+[MOVE] ply=23 WHITE -> c3c4
+[MOVE] ply=24 BLACK -> e3e2
+[MOVE] ply=25 WHITE -> a4b5
+[MOVE] ply=26 BLACK -> e2e1
+[END] RESIGNATION by WHITE at ply 27 | winner=BLACK
+[TOUR] round end 27/30 winner=BLACK reason=resignation plies=26 CLIENT1_wins=6 CLIENT2_wins=21
+[TOUR] round start 28/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 28] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> h7h5
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> h5h4
+[MOVE] ply=5 WHITE -> f2f4
+[MOVE] ply=6 BLACK -> a7a6
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> b7b6
+[MOVE] ply=9 WHITE -> g2g3
+[MOVE] ply=10 BLACK -> h4g3
+[MOVE] ply=11 WHITE -> h2g3
+[MOVE] ply=12 BLACK -> a6a5
+[MOVE] ply=13 WHITE -> b4a5
+[MOVE] ply=14 BLACK -> b6a5
+[MOVE] ply=15 WHITE -> g3g4
+[MOVE] ply=16 BLACK -> c7c5
+[MOVE] ply=17 WHITE -> e2e3
+[MOVE] ply=18 BLACK -> e7e6
+[MOVE] ply=19 WHITE -> d2d4
+[MOVE] ply=20 BLACK -> c5d4
+[MOVE] ply=21 WHITE -> e3d4
+[MOVE] ply=22 BLACK -> f7f5
+[MOVE] ply=23 WHITE -> g4g5
+[MOVE] ply=24 BLACK -> d7d6
+[MOVE] ply=25 WHITE -> c4c5
+[MOVE] ply=26 BLACK -> d6c5
+[MOVE] ply=27 WHITE -> d4c5
+[MOVE] ply=28 BLACK -> e6e5
+[MOVE] ply=29 WHITE -> c5c6
+[MOVE] ply=30 BLACK -> e5f4
+[MOVE] ply=31 WHITE -> c6c7
+[MOVE] ply=32 BLACK -> f4f3
+[MOVE] ply=33 WHITE -> c7c8
+[END] RESIGNATION by BLACK at ply 34 | winner=WHITE
+[TOUR] round end 28/30 winner=WHITE reason=resignation plies=33 CLIENT1_wins=6 CLIENT2_wins=22
+[TOUR] round start 29/30 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 29] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> b2b3
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> c2c4
+[MOVE] ply=6 BLACK -> e7e5
+[MOVE] ply=7 WHITE -> d2d3
+[MOVE] ply=8 BLACK -> h7h5
+[MOVE] ply=9 WHITE -> e2e4
+[MOVE] ply=10 BLACK -> g7g5
+[MOVE] ply=11 WHITE -> f2f3
+[MOVE] ply=12 BLACK -> h5h4
+[MOVE] ply=13 WHITE -> g2g3
+[MOVE] ply=14 BLACK -> h4h3
+[MOVE] ply=15 WHITE -> f3f4
+[MOVE] ply=16 BLACK -> e5f4
+[MOVE] ply=17 WHITE -> g3f4
+[MOVE] ply=18 BLACK -> g5f4
+[MOVE] ply=19 WHITE -> b3b4
+[MOVE] ply=20 BLACK -> f4f3
+[MOVE] ply=21 WHITE -> d3d4
+[MOVE] ply=22 BLACK -> f3f2
+[MOVE] ply=23 WHITE -> b4c5
+[MOVE] ply=24 BLACK -> f2f1
+[END] RESIGNATION by WHITE at ply 25 | winner=BLACK
+[TOUR] round end 29/30 winner=BLACK reason=resignation plies=24 CLIENT1_wins=6 CLIENT2_wins=23
+[TOUR] round start 30/30 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 30] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> c7c6
+[MOVE] ply=3 WHITE -> c2c4
+[MOVE] ply=4 BLACK -> c6c5
+[MOVE] ply=5 WHITE -> e2e4
+[MOVE] ply=6 BLACK -> a7a5
+[MOVE] ply=7 WHITE -> f2f4
+[MOVE] ply=8 BLACK -> b7b6
+[MOVE] ply=9 WHITE -> g2g4
+[MOVE] ply=10 BLACK -> d7d6
+[MOVE] ply=11 WHITE -> h2h4
+[MOVE] ply=12 BLACK -> e7e6
+[MOVE] ply=13 WHITE -> g4g5
+[MOVE] ply=14 BLACK -> f7f6
+[MOVE] ply=15 WHITE -> h4h5
+[MOVE] ply=16 BLACK -> f6g5
+[MOVE] ply=17 WHITE -> f4g5
+[MOVE] ply=18 BLACK -> e6e5
+[MOVE] ply=19 WHITE -> b2b3
+[MOVE] ply=20 BLACK -> b6b5
+[MOVE] ply=21 WHITE -> a4b5
+[MOVE] ply=22 BLACK -> a5a4
+[MOVE] ply=23 WHITE -> b3a4
+[MOVE] ply=24 BLACK -> d6d5
+[MOVE] ply=25 WHITE -> d2d3
+[MOVE] ply=26 BLACK -> d5e4
+[MOVE] ply=27 WHITE -> d3e4
+[MOVE] ply=28 BLACK -> g7g6
+[MOVE] ply=29 WHITE -> h5h6
+[END] RESIGNATION by BLACK at ply 30 | winner=WHITE
+[TOUR] round end 30/30 winner=WHITE reason=resignation plies=29 CLIENT1_wins=6 CLIENT2_wins=24
+[DRAIN] CLIENT1: exit
+By-color results: WHITE 11 | BLACK 19 | D 0
+---------------- Player Results ----------------
+  CLIENT1: 6/30 (0.200)
+  CLIENT2: 24/30 (0.800)
+
+ELO (baseline=1500 K=40):
+  CLIENT1: 1500.0 -> 1488.0 (Δ -12.0)
+  CLIENT2: 1500.0 -> 1512.0 (Δ +12.0)
+[STOP] Closing sockets.
+[LOG] logs\tournament_20260210_040706.log

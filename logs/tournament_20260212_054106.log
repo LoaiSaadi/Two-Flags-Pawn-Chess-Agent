@@ -1,0 +1,8 @@
+[NET] Listening. Waiting for TWO clients...
+Client #1 connected
+Client #2 connected
+[HS] Handshaking CLIENT1...
+[HANDSHAKE] CLIENT1 recv failed (expected OK)
+[ERR] CLIENT1 handshake failed
+[STOP] Closing sockets.
+[LOG] logs\tournament_20260212_054106.log

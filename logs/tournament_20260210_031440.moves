@@ -1,0 +1,231 @@
+# AISimplifiedChess move log (replayable)
+# Format: <ply> <W|B> <move4>
+
+# GAME 1 WHITE=CLIENT1 BLACK=CLIENT2
+1 W e2e3
+2 B a7a5
+3 W a2a4
+4 B d7d5
+5 W b2b3
+6 B c7c5
+7 W c2c4
+8 B d5c4
+9 W b3c4
+10 B e7e5
+11 W d2d3
+12 B g7g6
+13 W f2f4
+14 B e5f4
+15 W e3f4
+16 B f7f6
+17 W g2g4
+18 B g6g5
+19 W f4g5
+20 B f6g5
+21 W h2h3
+22 B b7b6
+23 W d3d4
+24 B c5d4
+25 W h3h4
+26 B d4d3
+27 W h4g5
+28 B d3d2
+29 W g5g6
+30 B d2d1
+RESULT BLACK reason=resignation plies=30
+
+# GAME 2 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a4
+2 B g7g5
+3 W b2b4
+4 B g5g4
+5 W c2c4
+6 B a7a6
+7 W f2f3
+8 B g4f3
+9 W e2f3
+10 B b7b6
+11 W d2d4
+12 B a6a5
+13 W b4a5
+14 B b6a5
+15 W g2g4
+16 B c7c6
+17 W h2h4
+18 B c6c5
+19 W d4c5
+20 B f7f6
+21 W f3f4
+22 B e7e5
+23 W g4g5
+24 B f6f5
+25 W f4e5
+26 B f5f4
+27 W c5c6
+28 B d7c6
+29 W e5e6
+30 B f4f3
+31 W e6e7
+32 B f3f2
+33 W e7e8
+RESULT WHITE reason=resignation plies=33
+
+# GAME 3 WHITE=CLIENT1 BLACK=CLIENT2
+1 W h2h3
+2 B a7a5
+3 W a2a4
+4 B d7d5
+5 W b2b3
+6 B c7c5
+7 W c2c4
+8 B d5c4
+9 W b3c4
+10 B e7e5
+11 W d2d3
+12 B f7f5
+13 W g2g3
+14 B g7g5
+15 W h3h4
+16 B g5h4
+17 W g3h4
+18 B h7h5
+19 W e2e3
+20 B f5f4
+21 W f2f3
+22 B f4e3
+23 W d3d4
+24 B c5d4
+25 W f3f4
+26 B e3e2
+27 W f4e5
+28 B e2e1
+RESULT BLACK reason=resignation plies=28
+
+# GAME 4 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a4
+2 B b7b5
+3 W a4b5
+4 B c7c5
+5 W c2c4
+6 B d7d6
+7 W h2h4
+8 B e7e5
+9 W g2g4
+10 B e5e4
+11 W d2d3
+12 B e4d3
+13 W e2d3
+14 B f7f6
+15 W f2f4
+16 B f6f5
+17 W g4f5
+18 B a7a5
+19 W b5a6
+20 B a5a4
+21 W a6a7
+22 B a4a3
+23 W a7a8
+RESULT WHITE reason=resignation plies=23
+
+# GAME 5 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B a7a5
+3 W b2b3
+4 B c7c5
+5 W c2c4
+6 B e7e6
+7 W d2d3
+8 B g7g5
+9 W e2e3
+10 B g5g4
+11 W f2f4
+12 B f7f5
+13 W h2h3
+14 B g4g3
+15 W d3d4
+16 B d7d6
+17 W h3h4
+18 B h7h5
+19 W d4d5
+20 B e6d5
+21 W c4d5
+22 B b7b6
+23 W b3b4
+24 B a5b4
+25 W e3e4
+26 B b4b3
+27 W a4a5
+28 B b3b2
+29 W e4f5
+30 B b2b1
+RESULT BLACK reason=resignation plies=30
+
+# GAME 6 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a4
+2 B e7e5
+3 W b2b4
+4 B e5e4
+5 W c2c4
+6 B a7a6
+7 W d2d3
+8 B e4d3
+9 W e2d3
+10 B b7b6
+11 W f2f4
+12 B a6a5
+13 W b4a5
+14 B b6a5
+15 W g2g4
+16 B c7c5
+17 W f4f5
+18 B f7f6
+19 W h2h4
+20 B h7h6
+21 W d3d4
+22 B c5d4
+23 W g4g5
+24 B d4d3
+25 W g5f6
+26 B g7f6
+27 W c4c5
+28 B h6h5
+29 W c5c6
+30 B d7c6
+RESULT BLACK reason=resignation plies=30
+
+# GAME 7 WHITE=CLIENT1 BLACK=CLIENT2
+1 W f2f3
+2 B a7a5
+3 W a2a4
+4 B c7c5
+5 W b2b3
+6 B e7e5
+7 W c2c4
+8 B f7f5
+9 W g2g4
+10 B f5g4
+11 W f3g4
+12 B g7g5
+13 W d2d3
+14 B e5e4
+15 W d3e4
+16 B b7b6
+17 W e4e5
+18 B h7h6
+19 W e2e4
+20 B h6h5
+21 W h2h3
+22 B d7d6
+23 W g4h5
+24 B d6d5
+25 W e4d5
+26 B g5g4
+27 W h3g4
+28 B b6b5
+29 W a4b5
+30 B a5a4
+31 W b3a4
+RESULT WHITE reason=resignation plies=31
+
+
+# ELO CLIENT1 1491.4 CLIENT2 1508.6

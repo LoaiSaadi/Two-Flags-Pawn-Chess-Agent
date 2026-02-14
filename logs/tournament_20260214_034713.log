@@ -1,0 +1,59 @@
+[NET] Listening. Waiting for TWO clients...
+Client #1 connected
+Client #2 connected
+[HS] Handshaking CLIENT1...
+[HANDSHAKE] CLIENT1 OK
+[HANDSHAKE] CLIENT1 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT1 OK after Setup
+[HANDSHAKE] CLIENT1 -> Time 30
+[HANDSHAKE] CLIENT1 OK after Time
+[HS] Handshaking CLIENT2...
+[HANDSHAKE] CLIENT2 OK
+[HANDSHAKE] CLIENT2 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT2 OK after Setup
+[HANDSHAKE] CLIENT2 -> Time 30
+[HANDSHAKE] CLIENT2 OK after Time
+[READY] Both clients handshaken.
+[SINGLE] Game 1 START | WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 1] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> b2b3
+[MOVE] ply=2 BLACK -> b7b6
+[MOVE] ply=3 WHITE -> a2a3
+[MOVE] ply=4 BLACK -> a7a6
+[MOVE] ply=5 WHITE -> f2f3
+[MOVE] ply=6 BLACK -> f7f6
+[MOVE] ply=7 WHITE -> a3a4
+[MOVE] ply=8 BLACK -> e7e5
+[MOVE] ply=9 WHITE -> d2d3
+[MOVE] ply=10 BLACK -> d7d6
+[MOVE] ply=11 WHITE -> e2e3
+[MOVE] ply=12 BLACK -> g7g6
+[MOVE] ply=13 WHITE -> g2g4
+[MOVE] ply=14 BLACK -> b6b5
+[MOVE] ply=15 WHITE -> a4b5
+[MOVE] ply=16 BLACK -> a6b5
+[MOVE] ply=17 WHITE -> f3f4
+[MOVE] ply=18 BLACK -> e5f4
+[MOVE] ply=19 WHITE -> e3f4
+[MOVE] ply=20 BLACK -> h7h5
+[MOVE] ply=21 WHITE -> g4h5
+[MOVE] ply=22 BLACK -> g6h5
+[MOVE] ply=23 WHITE -> b3b4
+[MOVE] ply=24 BLACK -> c7c5
+[MOVE] ply=25 WHITE -> b4c5
+[MOVE] ply=26 BLACK -> d6c5
+[MOVE] ply=27 WHITE -> h2h3
+[MOVE] ply=28 BLACK -> h5h4
+[MOVE] ply=29 WHITE -> d3d4
+[MOVE] ply=30 BLACK -> c5d4
+[MOVE] ply=31 WHITE -> f4f5
+[MOVE] ply=32 BLACK -> b5b4
+[MOVE] ply=33 WHITE -> c2c3
+[MOVE] ply=34 BLACK -> d4c3
+[END] RESIGNATION by WHITE at ply 35 | winner=BLACK
+[SINGLE] Game 1 END | reason=resignation winner=BLACK plies=34
+[STOP] Single game completed (default). Use --endless to keep playing.
+[STOP] Closing sockets.
+[LOG] logs\tournament_20260214_034713.log

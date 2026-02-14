@@ -1,0 +1,149 @@
+[NET] Listening. Waiting for TWO clients...
+Client #1 connected
+Client #2 connected
+[HS] Handshaking CLIENT1...
+[HANDSHAKE] CLIENT1 OK
+[HANDSHAKE] CLIENT1 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT1 OK after Setup
+[HANDSHAKE] CLIENT1 -> Time 30
+[HANDSHAKE] CLIENT1 OK after Time
+[HS] Handshaking CLIENT2...
+[HANDSHAKE] CLIENT2 OK
+[HANDSHAKE] CLIENT2 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT2 OK after Setup
+[HANDSHAKE] CLIENT2 -> Time 30
+[HANDSHAKE] CLIENT2 OK after Time
+[READY] Both clients handshaken.
+[TOUR] Received pregame command: TOURNAMENT 5
+[TOUR] tournament accepted 5
+[TOUR] round start 1/5 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 1] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> e2e3
+[MOVE] ply=2 BLACK -> f7f5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> b7b5
+[MOVE] ply=5 WHITE -> a4b5
+[MOVE] ply=6 BLACK -> g7g5
+[MOVE] ply=7 WHITE -> b2b4
+[MOVE] ply=8 BLACK -> h7h5
+[MOVE] ply=9 WHITE -> c2c4
+[MOVE] ply=10 BLACK -> d7d5
+[MOVE] ply=11 WHITE -> c4d5
+[MOVE] ply=12 BLACK -> c7c5
+[MOVE] ply=13 WHITE -> d5c6
+[END] RESIGNATION by BLACK at ply 14 | winner=WHITE
+[TOUR] round end 1/5 winner=WHITE reason=resignation plies=13 CLIENT1_wins=1 CLIENT2_wins=0
+[TOUR] round start 2/5 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 2] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> g2g4
+[MOVE] ply=2 BLACK -> g7g5
+[MOVE] ply=3 WHITE -> d2d4
+[MOVE] ply=4 BLACK -> a7a5
+[MOVE] ply=5 WHITE -> f2f4
+[MOVE] ply=6 BLACK -> g5f4
+[MOVE] ply=7 WHITE -> g4g5
+[MOVE] ply=8 BLACK -> a5a4
+[MOVE] ply=9 WHITE -> a2a3
+[MOVE] ply=10 BLACK -> b7b5
+[MOVE] ply=11 WHITE -> b2b3
+[MOVE] ply=12 BLACK -> b5b4
+[MOVE] ply=13 WHITE -> a3b4
+[MOVE] ply=14 BLACK -> a4a3
+[MOVE] ply=15 WHITE -> h2h4
+[MOVE] ply=16 BLACK -> a3a2
+[MOVE] ply=17 WHITE -> c2c3
+[MOVE] ply=18 BLACK -> a2a1
+[MOVE] ply=19 WHITE -> h4h5
+[END] RESIGNATION by BLACK at ply 20 | winner=WHITE
+[TOUR] round end 2/5 winner=WHITE reason=resignation plies=19 CLIENT1_wins=1 CLIENT2_wins=1
+[TOUR] round start 3/5 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 3] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> h2h3
+[MOVE] ply=2 BLACK -> e7e5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> e5e4
+[MOVE] ply=5 WHITE -> b2b4
+[MOVE] ply=6 BLACK -> f7f5
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> f5f4
+[MOVE] ply=9 WHITE -> d2d4
+[MOVE] ply=10 BLACK -> h7h5
+[MOVE] ply=11 WHITE -> e2e3
+[MOVE] ply=12 BLACK -> f4e3
+[MOVE] ply=13 WHITE -> f2e3
+[MOVE] ply=14 BLACK -> b7b5
+[MOVE] ply=15 WHITE -> a4b5
+[MOVE] ply=16 BLACK -> a7a6
+[MOVE] ply=17 WHITE -> b5a6
+[MOVE] ply=18 BLACK -> d7d6
+[MOVE] ply=19 WHITE -> g2g4
+[MOVE] ply=20 BLACK -> h5g4
+[MOVE] ply=21 WHITE -> h3g4
+[MOVE] ply=22 BLACK -> g7g6
+[MOVE] ply=23 WHITE -> b4b5
+[MOVE] ply=24 BLACK -> c7c5
+[MOVE] ply=25 WHITE -> b5c6
+[END] RESIGNATION by BLACK at ply 26 | winner=WHITE
+[TOUR] round end 3/5 winner=WHITE reason=resignation plies=25 CLIENT1_wins=2 CLIENT2_wins=1
+[TOUR] round start 4/5 WHITE=CLIENT2 BLACK=CLIENT1
+------------------------------------------------------------
+[GAME 4] white=CLIENT2 black=CLIENT1
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> d2d4
+[MOVE] ply=2 BLACK -> b7b5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> b5a4
+[MOVE] ply=5 WHITE -> d4d5
+[MOVE] ply=6 BLACK -> a7a5
+[MOVE] ply=7 WHITE -> b2b4
+[MOVE] ply=8 BLACK -> a4a3
+[MOVE] ply=9 WHITE -> b4a5
+[MOVE] ply=10 BLACK -> a3a2
+[MOVE] ply=11 WHITE -> a5a6
+[MOVE] ply=12 BLACK -> a2a1
+[MOVE] ply=13 WHITE -> a6a7
+[END] RESIGNATION by BLACK at ply 14 | winner=WHITE
+[TOUR] round end 4/5 winner=WHITE reason=resignation plies=13 CLIENT1_wins=2 CLIENT2_wins=2
+[TOUR] round start 5/5 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 5] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2a4
+[MOVE] ply=2 BLACK -> d7d5
+[MOVE] ply=3 WHITE -> b2b4
+[MOVE] ply=4 BLACK -> c7c5
+[MOVE] ply=5 WHITE -> b4c5
+[MOVE] ply=6 BLACK -> a7a5
+[MOVE] ply=7 WHITE -> c2c3
+[MOVE] ply=8 BLACK -> g7g5
+[MOVE] ply=9 WHITE -> d2d4
+[MOVE] ply=10 BLACK -> f7f5
+[MOVE] ply=11 WHITE -> e2e3
+[MOVE] ply=12 BLACK -> h7h6
+[MOVE] ply=13 WHITE -> e3e4
+[MOVE] ply=14 BLACK -> f5e4
+[MOVE] ply=15 WHITE -> g2g4
+[MOVE] ply=16 BLACK -> e4e3
+[MOVE] ply=17 WHITE -> f2e3
+[MOVE] ply=18 BLACK -> e7e6
+[MOVE] ply=19 WHITE -> h2h3
+[MOVE] ply=20 BLACK -> b7b5
+[MOVE] ply=21 WHITE -> c5b6
+[END] RESIGNATION by BLACK at ply 22 | winner=WHITE
+[TOUR] round end 5/5 winner=WHITE reason=resignation plies=21 CLIENT1_wins=3 CLIENT2_wins=2
+By-color results: WHITE 5 | BLACK 0 | D 0
+---------------- Player Results ----------------
+  CLIENT1: 3/5 (0.600)
+  CLIENT2: 2/5 (0.400)
+
+ELO (baseline=1500 K=40):
+  CLIENT1: 1500.0 -> 1504.0 (Δ +4.0)
+  CLIENT2: 1500.0 -> 1496.0 (Δ -4.0)
+[STOP] Closing sockets.
+[LOG] logs\tournament_20260212_061233.log

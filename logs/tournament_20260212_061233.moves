@@ -1,0 +1,111 @@
+# AISimplifiedChess move log (replayable)
+# Format: <ply> <W|B> <move4>
+
+# GAME 1 WHITE=CLIENT1 BLACK=CLIENT2
+1 W e2e3
+2 B f7f5
+3 W a2a4
+4 B b7b5
+5 W a4b5
+6 B g7g5
+7 W b2b4
+8 B h7h5
+9 W c2c4
+10 B d7d5
+11 W c4d5
+12 B c7c5
+13 W d5c6
+RESULT WHITE reason=resignation plies=13
+
+# GAME 2 WHITE=CLIENT2 BLACK=CLIENT1
+1 W g2g4
+2 B g7g5
+3 W d2d4
+4 B a7a5
+5 W f2f4
+6 B g5f4
+7 W g4g5
+8 B a5a4
+9 W a2a3
+10 B b7b5
+11 W b2b3
+12 B b5b4
+13 W a3b4
+14 B a4a3
+15 W h2h4
+16 B a3a2
+17 W c2c3
+18 B a2a1
+19 W h4h5
+RESULT WHITE reason=resignation plies=19
+
+# GAME 3 WHITE=CLIENT1 BLACK=CLIENT2
+1 W h2h3
+2 B e7e5
+3 W a2a4
+4 B e5e4
+5 W b2b4
+6 B f7f5
+7 W c2c4
+8 B f5f4
+9 W d2d4
+10 B h7h5
+11 W e2e3
+12 B f4e3
+13 W f2e3
+14 B b7b5
+15 W a4b5
+16 B a7a6
+17 W b5a6
+18 B d7d6
+19 W g2g4
+20 B h5g4
+21 W h3g4
+22 B g7g6
+23 W b4b5
+24 B c7c5
+25 W b5c6
+RESULT WHITE reason=resignation plies=25
+
+# GAME 4 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d4
+2 B b7b5
+3 W a2a4
+4 B b5a4
+5 W d4d5
+6 B a7a5
+7 W b2b4
+8 B a4a3
+9 W b4a5
+10 B a3a2
+11 W a5a6
+12 B a2a1
+13 W a6a7
+RESULT WHITE reason=resignation plies=13
+
+# GAME 5 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B d7d5
+3 W b2b4
+4 B c7c5
+5 W b4c5
+6 B a7a5
+7 W c2c3
+8 B g7g5
+9 W d2d4
+10 B f7f5
+11 W e2e3
+12 B h7h6
+13 W e3e4
+14 B f5e4
+15 W g2g4
+16 B e4e3
+17 W f2e3
+18 B e7e6
+19 W h2h3
+20 B b7b5
+21 W c5b6
+RESULT WHITE reason=resignation plies=21
+
+
+# ELO CLIENT1 1504.0 CLIENT2 1496.0

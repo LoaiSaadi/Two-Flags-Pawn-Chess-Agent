@@ -1,0 +1,34 @@
+[NET] Listening. Waiting for TWO clients...
+Client #1 connected
+Client #2 connected
+[HS] Handshaking CLIENT1...
+[HANDSHAKE] CLIENT1 OK
+[HANDSHAKE] CLIENT1 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT1 OK after Setup
+[HANDSHAKE] CLIENT1 -> Time 30
+[HANDSHAKE] CLIENT1 OK after Time
+[HS] Handshaking CLIENT2...
+[HANDSHAKE] CLIENT2 OK
+[HANDSHAKE] CLIENT2 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT2 OK after Setup
+[HANDSHAKE] CLIENT2 -> Time 30
+[HANDSHAKE] CLIENT2 OK after Time
+[READY] Both clients handshaken.
+[TOUR] Received pregame command: TOURNAMENT 10
+[TOUR] tournament accepted 10
+[TOUR] round start 1/10 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 1] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> e2e3
+[END] disconnect by BLACK at ply 2 | winner=WHITE
+[TOUR] round end 1/10 winner=WHITE reason=disconnect plies=1 CLIENT1_wins=1 CLIENT2_wins=0
+[SYNC] CLIENT2 disconnected while waiting for Ready
+[STOP] Ending due to resync failure
+By-color results: WHITE 1 | BLACK 0 | D 0
+---------------- Player Results ----------------
+  CLIENT1: 1/10 (0.100)
+  CLIENT2: 0/10 (0.000)
+ELO not updated (incomplete tournament: 1/10 games)
+[STOP] Closing sockets.
+[LOG] logs\tournament_20260208_035731.log

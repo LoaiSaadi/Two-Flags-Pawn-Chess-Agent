@@ -1,0 +1,40 @@
+[NET] Listening. Waiting for TWO clients...
+Client #1 connected
+Client #2 connected
+[HS] Handshaking CLIENT1...
+[HANDSHAKE] CLIENT1 OK
+[HANDSHAKE] CLIENT1 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT1 OK after Setup
+[HANDSHAKE] CLIENT1 -> Time 30
+[HANDSHAKE] CLIENT1 OK after Time
+[HS] Handshaking CLIENT2...
+[HANDSHAKE] CLIENT2 OK
+[HANDSHAKE] CLIENT2 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT2 OK after Setup
+[HANDSHAKE] CLIENT2 -> Time 30
+[HANDSHAKE] CLIENT2 OK after Time
+[READY] Both clients handshaken.
+[TOUR] Received pregame command: TOURNAMENT 100
+[TOUR] tournament accepted 100
+[TOUR] round start 1/100 WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 1] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> e2e3
+[MOVE] ply=2 BLACK -> a7a5
+[MOVE] ply=3 WHITE -> a2a4
+[MOVE] ply=4 BLACK -> b7b6
+[MOVE] ply=5 WHITE -> b2b3
+[MOVE] ply=6 BLACK -> c7c6
+[MOVE] ply=7 WHITE -> c2c4
+[MOVE] ply=8 BLACK -> d7d5
+[MOVE] ply=9 WHITE -> d2d4
+[MOVE] ply=10 BLACK -> d5c4
+[MOVE] ply=11 WHITE -> b3c4
+[MOVE] ply=12 BLACK -> c6c5
+[MOVE] ply=13 WHITE -> f2f4
+[MOVE] ply=14 BLACK -> c5d4
+[MOVE] ply=15 WHITE -> e3d4
+[MOVE] ply=16 BLACK -> f7f5
+[MOVE] ply=17 WHITE -> c4c5
+[MOVE] ply=18 BLACK -> e7e5

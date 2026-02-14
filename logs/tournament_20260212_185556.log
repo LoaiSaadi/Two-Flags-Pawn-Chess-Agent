@@ -1,0 +1,81 @@
+[NET] Listening. Waiting for TWO clients...
+Client #1 connected
+Client #2 connected
+[HS] Handshaking CLIENT1...
+[HANDSHAKE] CLIENT1 OK
+[HANDSHAKE] CLIENT1 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT1 OK after Setup
+[HANDSHAKE] CLIENT1 -> Time 30
+[HANDSHAKE] CLIENT1 OK after Time
+[HS] Handshaking CLIENT2...
+[HANDSHAKE] CLIENT2 OK
+[HANDSHAKE] CLIENT2 -> Setup Wa2 Wb2 Wc2 Wd2 We2 Wf2 Wg2 Wh2 Ba7 Bb7 Bc7 Bd7 Be7 Bf7 Bg7 Bh7
+[HANDSHAKE] CLIENT2 OK after Setup
+[HANDSHAKE] CLIENT2 -> Time 30
+[HANDSHAKE] CLIENT2 OK after Time
+[READY] Both clients handshaken.
+[SINGLE] Game 1 START | WHITE=CLIENT1 BLACK=CLIENT2
+------------------------------------------------------------
+[GAME 1] white=CLIENT1 black=CLIENT2
+[GAME] Begin sent to WHITE
+[MOVE] ply=1 WHITE -> a2b3
+[MOVE] ply=2 BLACK -> a7b6
+[MOVE] ply=3 WHITE -> b3c4
+[MOVE] ply=4 BLACK -> h7h5
+[MOVE] ply=5 WHITE -> e2e4
+[MOVE] ply=6 BLACK -> c7c5
+[MOVE] ply=7 WHITE -> h2h4
+[MOVE] ply=8 BLACK -> b7a6
+[MOVE] ply=9 WHITE -> g2g4
+[MOVE] ply=10 BLACK -> h5g4
+[MOVE] ply=11 WHITE -> e4e5
+[MOVE] ply=12 BLACK -> a6a5
+[MOVE] ply=13 WHITE -> h4h5
+[MOVE] ply=14 BLACK -> c5d4
+[MOVE] ply=15 WHITE -> c4b5
+[MOVE] ply=16 BLACK -> g4h3
+[MOVE] ply=17 WHITE -> h5h6
+[MOVE] ply=18 BLACK -> g7h6
+[MOVE] ply=19 WHITE -> e5f6
+[MOVE] ply=20 BLACK -> e7f6
+[MOVE] ply=21 WHITE -> b2a3
+[MOVE] ply=22 BLACK -> d4c3
+[MOVE] ply=23 WHITE -> d2c3
+[MOVE] ply=24 BLACK -> f6f5
+[MOVE] ply=25 WHITE -> c3c4
+[MOVE] ply=26 BLACK -> h3g2
+[MOVE] ply=27 WHITE -> b5c6
+[MOVE] ply=28 BLACK -> g2f1
+[MOVE] ply=29 WHITE -> c6d7
+[MOVE] ply=30 BLACK -> b6c5
+[MOVE] ply=31 WHITE -> d7e8
+[MOVE] ply=32 BLACK -> a5b4
+[MOVE] ply=33 WHITE -> a3b4
+[MOVE] ply=34 BLACK -> c5b4
+[MOVE] ply=35 WHITE -> c4b5
+[MOVE] ply=36 BLACK -> h6h5
+[MOVE] ply=37 WHITE -> f2f3
+[MOVE] ply=38 BLACK -> h5h4
+[MOVE] ply=39 WHITE -> f3e4
+[MOVE] ply=40 BLACK -> f5e4
+[MOVE] ply=41 WHITE -> c2c4
+[MOVE] ply=42 BLACK -> b4b3
+[MOVE] ply=43 WHITE -> c4c5
+[MOVE] ply=44 BLACK -> e4f3
+[MOVE] ply=45 WHITE -> c5d6
+[MOVE] ply=46 BLACK -> f7f6
+[MOVE] ply=47 WHITE -> d6e7
+[MOVE] ply=48 BLACK -> b3a2
+[MOVE] ply=49 WHITE -> e7d8
+[MOVE] ply=50 BLACK -> a2b1
+[MOVE] ply=51 WHITE -> b5a6
+[MOVE] ply=52 BLACK -> h4h3
+[MOVE] ply=53 WHITE -> a6a7
+[MOVE] ply=54 BLACK -> f3g2
+[MOVE] ply=55 WHITE -> a7b8
+[MOVE] ply=56 BLACK -> g2h1
+[END] RESIGNATION by WHITE at ply 57 | winner=BLACK
+[SINGLE] Game 1 END | reason=resignation winner=BLACK plies=56
+[STOP] Single game completed (default). Use --endless to keep playing.
+[STOP] Closing sockets.
+[LOG] logs\tournament_20260212_185556.log

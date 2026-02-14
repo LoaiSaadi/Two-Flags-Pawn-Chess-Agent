@@ -1,0 +1,2823 @@
+# AISimplifiedChess move log (replayable)
+# Format: <ply> <W|B> <move4>
+
+# GAME 1 WHITE=CLIENT1 BLACK=CLIENT2
+1 W e2e3
+2 B b7b6
+3 W a2a4
+4 B a7a6
+5 W b2b4
+6 B f7f6
+7 W c2c4
+8 B e7e5
+9 W d2d4
+10 B e5d4
+11 W e3d4
+12 B g7g5
+13 W g2g4
+14 B c7c6
+15 W c4c5
+16 B b6c5
+17 W d4c5
+18 B d7d5
+19 W c5d6
+20 B f6f5
+21 W d6d7
+22 B f5g4
+23 W d7d8
+24 B h7h6
+RESULT BLACK reason=resignation plies=24
+
+# GAME 2 WHITE=CLIENT2 BLACK=CLIENT1
+1 W f2f4
+2 B g7g5
+3 W f4g5
+4 B a7a5
+5 W g2g4
+6 B a5a4
+7 W e2e3
+8 B b7b5
+9 W a2a3
+10 B c7c5
+11 W b2b4
+12 B c5b4
+13 W a3b4
+14 B a4a3
+15 W d2d3
+16 B a3a2
+17 W d3d4
+18 B a2a1
+19 W h2h3
+RESULT WHITE reason=resignation plies=19
+
+# GAME 3 WHITE=CLIENT1 BLACK=CLIENT2
+1 W h2h3
+2 B d7d6
+3 W a2a4
+4 B e7e5
+5 W b2b4
+6 B c7c6
+7 W c2c4
+8 B e5e4
+9 W d2d4
+10 B f7f5
+11 W e2e3
+12 B g7g6
+13 W f2f4
+14 B d6d5
+15 W c4d5
+16 B c6d5
+17 W g2g3
+18 B a7a5
+19 W b4a5
+20 B b7b5
+21 W a5b6
+22 B b5a4
+23 W b6b7
+24 B h7h6
+25 W b7b8
+26 B h6h5
+RESULT BLACK reason=resignation plies=26
+
+# GAME 4 WHITE=CLIENT2 BLACK=CLIENT1
+1 W e2e4
+2 B b7b5
+3 W c2c4
+4 B b5c4
+5 W b2b3
+6 B c4b3
+7 W a2b3
+8 B a7a5
+9 W g2g3
+10 B c7c5
+11 W e4e5
+12 B c5c4
+13 W b3c4
+14 B a5a4
+15 W d2d3
+16 B a4a3
+17 W e5e6
+18 B a3a2
+19 W e6d7
+20 B a2a1
+21 W d7d8
+RESULT WHITE reason=resignation plies=21
+
+# GAME 5 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B d7d5
+3 W b2b4
+4 B a7a5
+5 W b4a5
+6 B f7f5
+7 W c2c3
+8 B c7c5
+9 W d2d4
+10 B c5d4
+11 W c3d4
+12 B b7b6
+13 W a5b6
+14 B f5f4
+15 W b6b7
+16 B h7h6
+17 W b7b8
+18 B e7e6
+RESULT BLACK reason=resignation plies=18
+
+# GAME 6 WHITE=CLIENT2 BLACK=CLIENT1
+1 W f2f4
+2 B e7e5
+3 W f4e5
+4 B a7a5
+5 W b2b3
+6 B b7b5
+7 W d2d4
+8 B a5a4
+9 W b3a4
+10 B b5a4
+11 W e2e3
+12 B a4a3
+13 W h2h4
+14 B f7f6
+15 W e5f6
+16 B g7f6
+17 W e3e4
+18 B c7c6
+19 W e4e5
+20 B c6c5
+21 W d4c5
+22 B f6e5
+23 W g2g3
+24 B e5e4
+25 W c5c6
+26 B d7c6
+27 W c2c3
+28 B e4e3
+29 W g3g4
+30 B e3e2
+31 W c3c4
+32 B e2e1
+33 W h4h5
+RESULT WHITE reason=resignation plies=33
+
+# GAME 7 WHITE=CLIENT1 BLACK=CLIENT2
+1 W f2f3
+2 B h7h5
+3 W a2a4
+4 B h5h4
+5 W b2b4
+6 B a7a6
+7 W c2c4
+8 B g7g5
+9 W d2d4
+10 B b7b6
+11 W e2e4
+12 B e7e6
+13 W g2g4
+14 B d7d5
+15 W c4d5
+16 B e6d5
+17 W h2h3
+18 B d5e4
+19 W f3e4
+20 B a6a5
+21 W b4b5
+22 B f7f5
+23 W e4f5
+24 B c7c5
+25 W b5c6
+26 B c5d4
+27 W c6c7
+28 B b6b5
+29 W c7c8
+30 B b5a4
+RESULT BLACK reason=resignation plies=30
+
+# GAME 8 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d4
+2 B g7g6
+3 W h2h4
+4 B a7a5
+5 W a2a3
+6 B a5a4
+7 W e2e4
+8 B b7b5
+9 W d4d5
+10 B c7c5
+11 W c2c3
+12 B c5c4
+13 W h4h5
+14 B g6h5
+15 W f2f3
+16 B h5h4
+17 W b2b4
+18 B f7f6
+19 W g2g3
+20 B h4g3
+21 W f3f4
+22 B g3g2
+23 W d5d6
+24 B e7d6
+25 W f4f5
+26 B h7h5
+27 W e4e5
+28 B d6e5
+RESULT BLACK reason=resignation plies=28
+
+# GAME 9 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d4
+2 B d7d6
+3 W a2a4
+4 B b7b5
+5 W a4b5
+6 B d6d5
+7 W b2b4
+8 B g7g6
+9 W c2c3
+10 B c7c6
+11 W b5c6
+12 B a7a6
+13 W c6c7
+14 B f7f6
+15 W c7c8
+16 B a6a5
+RESULT BLACK reason=resignation plies=16
+
+# GAME 10 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d4
+2 B e7e6
+3 W f2f4
+4 B a7a5
+5 W c2c3
+6 B a5a4
+7 W g2g3
+8 B b7b5
+9 W h2h3
+10 B c7c6
+11 W e2e3
+12 B d7d5
+13 W g3g4
+14 B a4a3
+15 W b2a3
+16 B h7h6
+17 W g4g5
+18 B h6g5
+19 W f4g5
+20 B e6e5
+21 W d4e5
+22 B g7g6
+23 W e3e4
+24 B d5e4
+25 W h3h4
+26 B e4e3
+27 W a3a4
+28 B e3e2
+29 W a4b5
+30 B e2e1
+31 W b5c6
+RESULT WHITE reason=resignation plies=31
+
+# GAME 11 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d4
+2 B d7d6
+3 W a2a4
+4 B f7f5
+5 W b2b4
+6 B g7g5
+7 W c2c4
+8 B b7b6
+9 W e2e3
+10 B d6d5
+11 W c4d5
+12 B e7e6
+13 W d5e6
+14 B a7a6
+15 W e6e7
+16 B a6a5
+17 W e7e8
+18 B a5b4
+RESULT BLACK reason=resignation plies=18
+
+# GAME 12 WHITE=CLIENT2 BLACK=CLIENT1
+1 W b2b3
+2 B a7a5
+3 W e2e3
+4 B b7b5
+5 W d2d3
+6 B a5a4
+7 W b3a4
+8 B b5a4
+9 W c2c4
+10 B a4a3
+11 W c4c5
+12 B c7c6
+13 W d3d4
+14 B d7d5
+15 W g2g3
+16 B e7e6
+17 W g3g4
+18 B f7f6
+19 W h2h4
+20 B e6e5
+21 W d4e5
+22 B f6e5
+23 W e3e4
+24 B d5e4
+25 W f2f4
+26 B e4f3
+27 W f4e5
+28 B f3f2
+29 W g4g5
+30 B f2f1
+31 W g5g6
+RESULT WHITE reason=resignation plies=31
+
+# GAME 13 WHITE=CLIENT1 BLACK=CLIENT2
+1 W c2c4
+2 B b7b6
+3 W a2a4
+4 B g7g5
+5 W b2b4
+6 B d7d6
+7 W d2d4
+8 B f7f5
+9 W e2e3
+10 B b6b5
+11 W a4b5
+12 B e7e6
+13 W f2f4
+14 B g5f4
+15 W e3f4
+16 B c7c5
+17 W b5c6
+18 B c5d4
+19 W c6c7
+20 B h7h6
+21 W c7c8
+22 B a7a6
+RESULT BLACK reason=resignation plies=22
+
+# GAME 14 WHITE=CLIENT2 BLACK=CLIENT1
+1 W b2b4
+2 B a7a5
+3 W b4a5
+4 B c7c5
+5 W e2e3
+6 B c5c4
+7 W a5a6
+8 B b7a6
+9 W e3e4
+10 B a6a5
+11 W a2a4
+12 B d7d6
+13 W h2h4
+14 B e7e6
+15 W f2f3
+16 B d6d5
+17 W e4d5
+18 B e6d5
+19 W d2d4
+20 B h7h6
+21 W h4h5
+22 B g7g6
+23 W h5g6
+24 B f7g6
+25 W f3f4
+26 B h6h5
+27 W g2g3
+28 B c4c3
+29 W f4f5
+30 B g6f5
+31 W g3g4
+32 B f5g4
+RESULT BLACK reason=resignation plies=32
+
+# GAME 15 WHITE=CLIENT1 BLACK=CLIENT2
+1 W g2g4
+2 B e7e5
+3 W a2a4
+4 B e5e4
+5 W b2b4
+6 B h7h5
+7 W g4h5
+8 B f7f6
+9 W c2c4
+10 B b7b5
+11 W a4b5
+12 B g7g5
+13 W h5g6
+14 B d7d6
+15 W g6g7
+16 B c7c5
+17 W g7g8
+18 B c5b4
+RESULT BLACK reason=resignation plies=18
+
+# GAME 16 WHITE=CLIENT2 BLACK=CLIENT1
+1 W b2b3
+2 B f7f6
+3 W c2c4
+4 B f6f5
+5 W e2e3
+6 B a7a5
+7 W f2f3
+8 B b7b6
+9 W d2d4
+10 B c7c5
+11 W d4c5
+12 B b6c5
+13 W h2h3
+14 B d7d6
+15 W g2g3
+16 B e7e6
+17 W e3e4
+18 B f5e4
+19 W f3e4
+20 B e6e5
+21 W b3b4
+22 B a5b4
+23 W g3g4
+24 B g7g5
+25 W h3h4
+26 B g5h4
+27 W g4g5
+28 B h4h3
+29 W a2a3
+30 B b4a3
+31 W g5g6
+32 B h7g6
+RESULT BLACK reason=resignation plies=32
+
+# GAME 17 WHITE=CLIENT1 BLACK=CLIENT2
+1 W f2f3
+2 B h7h5
+3 W a2a4
+4 B d7d6
+5 W b2b4
+6 B e7e6
+7 W c2c4
+8 B h5h4
+9 W d2d4
+10 B e6e5
+11 W e2e3
+12 B e5d4
+13 W e3d4
+14 B a7a5
+15 W b4a5
+16 B c7c5
+17 W d4c5
+18 B d6c5
+19 W g2g4
+20 B f7f6
+21 W f3f4
+22 B h4h3
+23 W f4f5
+24 B g7g6
+25 W a5a6
+26 B b7a6
+27 W f5g6
+28 B f6f5
+29 W g4f5
+30 B a6a5
+31 W f5f6
+RESULT WHITE reason=resignation plies=31
+
+# GAME 18 WHITE=CLIENT2 BLACK=CLIENT1
+1 W f2f4
+2 B e7e5
+3 W f4e5
+4 B a7a5
+5 W d2d3
+6 B a5a4
+7 W d3d4
+8 B b7b5
+9 W g2g4
+10 B b5b4
+11 W h2h3
+12 B a4a3
+13 W b2a3
+14 B b4a3
+15 W g4g5
+16 B c7c6
+17 W g5g6
+18 B h7g6
+19 W c2c3
+20 B g6g5
+21 W e5e6
+22 B d7e6
+23 W c3c4
+24 B f7f5
+25 W d4d5
+26 B e6d5
+27 W c4d5
+28 B c6d5
+29 W e2e3
+30 B f5f4
+31 W e3f4
+32 B g5f4
+33 W h3h4
+34 B f4f3
+35 W h4h5
+36 B f3f2
+37 W h5h6
+38 B g7h6
+RESULT BLACK reason=resignation plies=38
+
+# GAME 19 WHITE=CLIENT1 BLACK=CLIENT2
+1 W e2e4
+2 B a7a6
+3 W a2a4
+4 B d7d6
+5 W b2b4
+6 B g7g5
+7 W c2c4
+8 B c7c6
+9 W d2d4
+10 B e7e6
+11 W f2f3
+12 B d6d5
+13 W c4d5
+14 B c6d5
+15 W e4e5
+16 B f7f6
+17 W e5f6
+18 B a6a5
+19 W f6f7
+20 B a5b4
+21 W f7f8
+22 B e6e5
+RESULT BLACK reason=resignation plies=22
+
+# GAME 20 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a3
+2 B e7e5
+3 W a3a4
+4 B e5e4
+5 W b2b3
+6 B a7a5
+7 W h2h3
+8 B b7b6
+9 W g2g4
+10 B c7c5
+11 W c2c4
+12 B g7g5
+13 W d2d4
+14 B c5d4
+15 W c4c5
+16 B d4d3
+17 W e2d3
+18 B e4d3
+19 W c5b6
+20 B d3d2
+21 W b3b4
+22 B d2d1
+23 W b4a5
+RESULT WHITE reason=resignation plies=23
+
+# GAME 21 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a3
+2 B a7a5
+3 W b2b4
+4 B a5b4
+5 W a3b4
+6 B e7e6
+7 W c2c4
+8 B d7d5
+9 W d2d3
+10 B d5c4
+11 W d3c4
+12 B f7f6
+13 W e2e4
+14 B g7g6
+15 W f2f4
+16 B f6f5
+17 W e4e5
+18 B h7h6
+19 W h2h4
+20 B c7c6
+21 W c4c5
+22 B b7b6
+23 W c5b6
+24 B g6g5
+25 W g2g3
+26 B g5h4
+27 W g3h4
+28 B c6c5
+29 W b4c5
+30 B h6h5
+31 W c5c6
+RESULT WHITE reason=resignation plies=31
+
+# GAME 22 WHITE=CLIENT2 BLACK=CLIENT1
+1 W g2g4
+2 B e7e6
+3 W d2d4
+4 B a7a5
+5 W h2h4
+6 B a5a4
+7 W e2e4
+8 B b7b5
+9 W d4d5
+10 B b5b4
+11 W d5e6
+12 B d7e6
+13 W e4e5
+14 B a4a3
+15 W b2a3
+16 B b4a3
+17 W g4g5
+18 B c7c6
+19 W g5g6
+20 B h7g6
+21 W f2f4
+22 B c6c5
+23 W c2c3
+24 B c5c4
+25 W h4h5
+26 B g6h5
+27 W f4f5
+28 B h5h4
+29 W f5e6
+30 B f7e6
+RESULT BLACK reason=resignation plies=30
+
+# GAME 23 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B c7c5
+3 W b2b3
+4 B c5c4
+5 W b3c4
+6 B a7a6
+7 W c2c3
+8 B f7f6
+9 W d2d4
+10 B b7b5
+11 W a4b5
+12 B a6b5
+13 W c4b5
+14 B d7d5
+15 W b5b6
+16 B h7h5
+17 W b6b7
+18 B f6f5
+19 W b7b8
+20 B f5f4
+RESULT BLACK reason=resignation plies=20
+
+# GAME 24 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a3
+2 B c7c5
+3 W d2d3
+4 B a7a5
+5 W b2b3
+6 B b7b5
+7 W f2f4
+8 B a5a4
+9 W b3a4
+10 B b5a4
+11 W g2g4
+12 B d7d5
+13 W g4g5
+14 B c5c4
+15 W d3c4
+16 B d5c4
+17 W c2c3
+18 B e7e6
+19 W f4f5
+20 B e6f5
+21 W e2e3
+22 B f7f6
+23 W g5f6
+24 B g7f6
+25 W e3e4
+26 B f5e4
+27 W h2h3
+28 B e4e3
+29 W h3h4
+30 B e3e2
+31 W h4h5
+32 B f6f5
+33 W h5h6
+34 B f5f4
+RESULT BLACK reason=resignation plies=34
+
+# GAME 25 WHITE=CLIENT1 BLACK=CLIENT2
+1 W g2g4
+2 B a7a5
+3 W a2a4
+4 B f7f6
+5 W b2b3
+6 B b7b6
+7 W c2c4
+8 B g7g5
+9 W d2d4
+10 B h7h5
+11 W g4h5
+12 B g5g4
+13 W h5h6
+14 B e7e5
+15 W h6h7
+16 B e5d4
+17 W h7h8
+18 B f6f5
+RESULT BLACK reason=resignation plies=18
+
+# GAME 26 WHITE=CLIENT2 BLACK=CLIENT1
+1 W b2b4
+2 B e7e6
+3 W a2a3
+4 B e6e5
+5 W b4b5
+6 B e5e4
+7 W g2g3
+8 B a7a5
+9 W b5b6
+10 B c7b6
+11 W c2c3
+12 B a5a4
+13 W h2h3
+14 B b6b5
+15 W e2e3
+16 B g7g6
+17 W d2d4
+18 B e4d3
+19 W f2f3
+20 B d3d2
+21 W f3f4
+22 B d2d1
+23 W d4d5
+RESULT WHITE reason=resignation plies=23
+
+# GAME 27 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a3
+2 B c7c6
+3 W b2b4
+4 B c6c5
+5 W b4c5
+6 B e7e6
+7 W c2c4
+8 B d7d6
+9 W c5d6
+10 B a7a6
+11 W d6d7
+12 B f7f6
+13 W d7d8
+14 B e6e5
+RESULT BLACK reason=resignation plies=14
+
+# GAME 28 WHITE=CLIENT2 BLACK=CLIENT1
+1 W f2f4
+2 B h7h5
+3 W b2b3
+4 B h5h4
+5 W c2c3
+6 B a7a5
+7 W e2e3
+8 B b7b5
+9 W a2a3
+10 B a5a4
+11 W b3a4
+12 B b5a4
+13 W d2d4
+14 B d7d5
+15 W e3e4
+16 B d5e4
+17 W g2g3
+18 B e4e3
+19 W g3h4
+20 B e3e2
+21 W h4h5
+22 B e2e1
+23 W h5h6
+RESULT WHITE reason=resignation plies=23
+
+# GAME 29 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B c7c5
+3 W b2b3
+4 B b7b5
+5 W a4b5
+6 B a7a5
+7 W b5a6
+8 B e7e5
+9 W a6a7
+10 B g7g6
+11 W a7a8
+12 B h7h5
+RESULT BLACK reason=resignation plies=12
+
+# GAME 30 WHITE=CLIENT2 BLACK=CLIENT1
+1 W c2c4
+2 B c7c6
+3 W b2b4
+4 B a7a6
+5 W d2d4
+6 B b7b5
+7 W c4b5
+8 B c6b5
+9 W a2a3
+10 B d7d5
+11 W g2g3
+12 B e7e6
+13 W e2e3
+14 B f7f5
+15 W f2f4
+16 B h7h6
+17 W e3e4
+18 B d5e4
+19 W h2h3
+20 B e4e3
+21 W a3a4
+22 B e3e2
+23 W a4b5
+24 B e2e1
+25 W b5a6
+RESULT WHITE reason=resignation plies=25
+
+# GAME 31 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B e7e5
+3 W b2b4
+4 B a7a6
+5 W c2c4
+6 B a6a5
+7 W b4a5
+8 B f7f6
+9 W d2d3
+10 B d7d5
+11 W c4d5
+12 B c7c6
+13 W d5d6
+14 B g7g5
+15 W d6d7
+16 B c6c5
+17 W d7d8
+18 B e5e4
+RESULT BLACK reason=resignation plies=18
+
+# GAME 32 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d4
+2 B b7b6
+3 W b2b4
+4 B b6b5
+5 W g2g3
+6 B a7a6
+7 W h2h3
+8 B c7c6
+9 W c2c4
+10 B b5c4
+11 W a2a4
+12 B c4c3
+13 W a4a5
+14 B c3c2
+15 W b4b5
+16 B c2c1
+17 W b5a6
+RESULT WHITE reason=resignation plies=17
+
+# GAME 33 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d3
+2 B d7d5
+3 W a2a4
+4 B f7f5
+5 W b2b4
+6 B f5f4
+7 W c2c4
+8 B d5c4
+9 W d3c4
+10 B c7c5
+11 W b4c5
+12 B h7h6
+13 W e2e4
+14 B h6h5
+15 W f2f3
+16 B g7g6
+17 W h2h4
+18 B e7e5
+19 W a4a5
+20 B b7b6
+21 W c5b6
+22 B a7b6
+23 W a5b6
+24 B g6g5
+25 W c4c5
+26 B g5h4
+27 W c5c6
+28 B h4h3
+29 W g2h3
+30 B h5h4
+31 W b6b7
+RESULT WHITE reason=resignation plies=31
+
+# GAME 34 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d3
+2 B d7d6
+3 W e2e4
+4 B a7a5
+5 W f2f3
+6 B a5a4
+7 W b2b3
+8 B a4a3
+9 W e4e5
+10 B d6e5
+11 W b3b4
+12 B b7b5
+13 W g2g4
+14 B c7c6
+15 W h2h4
+16 B e7e6
+17 W f3f4
+18 B e5f4
+19 W c2c4
+20 B f4f3
+21 W c4b5
+22 B c6b5
+23 W h4h5
+24 B f3f2
+25 W g4g5
+26 B e6e5
+27 W g5g6
+28 B f7g6
+29 W h5g6
+30 B h7g6
+31 W d3d4
+32 B e5d4
+RESULT BLACK reason=resignation plies=32
+
+# GAME 35 WHITE=CLIENT1 BLACK=CLIENT2
+1 W g2g3
+2 B f7f5
+3 W a2a4
+4 B e7e5
+5 W b2b4
+6 B d7d6
+7 W c2c4
+8 B f5f4
+9 W d2d3
+10 B f4g3
+11 W f2g3
+12 B b7b6
+13 W e2e4
+14 B g7g5
+15 W h2h4
+16 B g5h4
+17 W g3h4
+18 B a7a6
+19 W a4a5
+20 B b6a5
+21 W d3d4
+22 B a5b4
+23 W c4c5
+24 B d6c5
+25 W d4e5
+26 B h7h5
+27 W e5e6
+28 B c7c6
+29 W e6e7
+30 B a6a5
+31 W e7e8
+32 B c5c4
+RESULT BLACK reason=resignation plies=32
+
+# GAME 36 WHITE=CLIENT2 BLACK=CLIENT1
+1 W f2f4
+2 B d7d5
+3 W b2b4
+4 B d5d4
+5 W d2d3
+6 B a7a6
+7 W h2h4
+8 B b7b5
+9 W e2e3
+10 B d4e3
+11 W f4f5
+12 B e3e2
+13 W c2c3
+14 B e2e1
+15 W h4h5
+RESULT WHITE reason=resignation plies=15
+
+# GAME 37 WHITE=CLIENT1 BLACK=CLIENT2
+1 W b2b4
+2 B b7b6
+3 W a2a4
+4 B d7d5
+5 W c2c3
+6 B f7f6
+7 W d2d4
+8 B c7c6
+9 W e2e3
+10 B h7h5
+11 W f2f4
+12 B a7a5
+13 W b4a5
+14 B b6a5
+15 W f4f5
+16 B e7e6
+17 W f5e6
+18 B g7g5
+19 W e6e7
+20 B f6f5
+21 W e7e8
+22 B c6c5
+RESULT BLACK reason=resignation plies=22
+
+# GAME 38 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d3
+2 B b7b5
+3 W b2b3
+4 B b5b4
+5 W e2e4
+6 B a7a5
+7 W d3d4
+8 B c7c6
+9 W h2h4
+10 B d7d5
+11 W e4d5
+12 B c6d5
+13 W c2c4
+14 B b4c3
+15 W c4d5
+16 B c3c2
+17 W g2g4
+18 B c2c1
+19 W b3b4
+RESULT WHITE reason=resignation plies=19
+
+# GAME 39 WHITE=CLIENT1 BLACK=CLIENT2
+1 W e2e3
+2 B c7c5
+3 W a2a4
+4 B e7e5
+5 W b2b3
+6 B d7d6
+7 W c2c4
+8 B f7f6
+9 W d2d3
+10 B b7b5
+11 W c4b5
+12 B g7g6
+13 W a4a5
+14 B g6g5
+15 W a5a6
+16 B c5c4
+17 W b5b6
+18 B c4b3
+19 W b6a7
+20 B f6f5
+21 W a7a8
+22 B e5e4
+RESULT BLACK reason=resignation plies=22
+
+# GAME 40 WHITE=CLIENT2 BLACK=CLIENT1
+1 W c2c4
+2 B a7a5
+3 W f2f4
+4 B a5a4
+5 W e2e3
+6 B b7b6
+7 W e3e4
+8 B c7c5
+9 W b2b4
+10 B c5b4
+11 W g2g3
+12 B a4a3
+13 W e4e5
+14 B b4b3
+15 W a2b3
+16 B a3a2
+17 W h2h3
+18 B a2a1
+19 W h3h4
+RESULT WHITE reason=resignation plies=19
+
+# GAME 41 WHITE=CLIENT1 BLACK=CLIENT2
+1 W f2f4
+2 B d7d6
+3 W a2a4
+4 B f7f5
+5 W b2b4
+6 B e7e6
+7 W c2c4
+8 B h7h5
+9 W d2d4
+10 B b7b6
+11 W e2e3
+12 B h5h4
+13 W g2g3
+14 B h4g3
+15 W h2g3
+16 B d6d5
+17 W c4d5
+18 B e6d5
+19 W b4b5
+20 B g7g6
+21 W a4a5
+22 B b6a5
+23 W e3e4
+24 B f5e4
+25 W b5b6
+26 B a7b6
+27 W g3g4
+28 B e4e3
+29 W f4f5
+30 B g6f5
+31 W g4f5
+32 B c7c6
+33 W f5f6
+34 B a5a4
+35 W f6f7
+36 B a4a3
+37 W f7f8
+38 B e3e2
+RESULT BLACK reason=resignation plies=38
+
+# GAME 42 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d3
+2 B c7c6
+3 W b2b4
+4 B a7a6
+5 W f2f3
+6 B b7b5
+7 W a2a4
+8 B b5a4
+9 W b4b5
+10 B a4a3
+11 W b5a6
+12 B a3a2
+13 W g2g3
+14 B a2a1
+15 W e2e3
+RESULT WHITE reason=resignation plies=15
+
+# GAME 43 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a3
+2 B b7b6
+3 W b2b4
+4 B b6b5
+5 W c2c3
+6 B d7d6
+7 W d2d4
+8 B g7g6
+9 W e2e4
+10 B f7f5
+11 W f2f3
+12 B f5e4
+13 W f3e4
+14 B h7h6
+15 W d4d5
+16 B a7a6
+17 W g2g3
+18 B g6g5
+19 W g3g4
+20 B c7c5
+21 W d5c6
+22 B c5b4
+23 W c6c7
+24 B b4c3
+25 W c7c8
+26 B a6a5
+RESULT BLACK reason=resignation plies=26
+
+# GAME 44 WHITE=CLIENT2 BLACK=CLIENT1
+1 W b2b3
+2 B d7d6
+3 W h2h4
+4 B d6d5
+5 W f2f4
+6 B d5d4
+7 W g2g3
+8 B a7a5
+9 W a2a4
+10 B b7b6
+11 W f4f5
+12 B c7c5
+13 W e2e3
+14 B d4e3
+15 W d2e3
+16 B e7e5
+17 W f5f6
+18 B g7f6
+19 W e3e4
+20 B f6f5
+21 W e4f5
+22 B e5e4
+23 W b3b4
+24 B e4e3
+25 W b4a5
+26 B e3e2
+27 W a5b6
+28 B e2e1
+29 W c2c3
+RESULT WHITE reason=resignation plies=29
+
+# GAME 45 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d4
+2 B c7c6
+3 W a2a4
+4 B a7a5
+5 W b2b3
+6 B e7e5
+7 W d4e5
+8 B c6c5
+9 W c2c4
+10 B g7g6
+11 W e2e4
+12 B d7d5
+13 W e5d6
+14 B d5e4
+15 W d6d7
+16 B h7h5
+17 W d7d8
+18 B f7f6
+RESULT BLACK reason=resignation plies=18
+
+# GAME 46 WHITE=CLIENT2 BLACK=CLIENT1
+1 W b2b3
+2 B b7b6
+3 W c2c3
+4 B b6b5
+5 W h2h4
+6 B a7a5
+7 W f2f4
+8 B c7c5
+9 W c3c4
+10 B b5c4
+11 W b3c4
+12 B a5a4
+13 W h4h5
+14 B a4a3
+15 W h5h6
+16 B g7h6
+17 W d2d3
+18 B h6h5
+19 W g2g3
+20 B d7d5
+21 W c4d5
+22 B f7f5
+23 W d3d4
+24 B c5d4
+25 W e2e3
+26 B d4e3
+27 W d5d6
+28 B e7d6
+29 W g3g4
+30 B h5g4
+RESULT BLACK reason=resignation plies=30
+
+# GAME 47 WHITE=CLIENT1 BLACK=CLIENT2
+1 W b2b4
+2 B b7b6
+3 W a2a4
+4 B d7d5
+5 W c2c3
+6 B a7a6
+7 W d2d4
+8 B c7c6
+9 W e2e3
+10 B h7h5
+11 W f2f4
+12 B a6a5
+13 W g2g3
+14 B a5b4
+15 W c3b4
+16 B h5h4
+17 W g3h4
+18 B b6b5
+19 W a4a5
+20 B g7g6
+21 W a5a6
+22 B g6g5
+23 W a6a7
+24 B g5h4
+25 W a7a8
+26 B e7e6
+RESULT BLACK reason=resignation plies=26
+
+# GAME 48 WHITE=CLIENT2 BLACK=CLIENT1
+1 W h2h4
+2 B h7h6
+3 W d2d4
+4 B h6h5
+5 W a2a3
+6 B a7a5
+7 W c2c4
+8 B a5a4
+9 W f2f3
+10 B f7f5
+11 W c4c5
+12 B f5f4
+13 W b2b3
+14 B a4b3
+15 W e2e3
+16 B b3b2
+17 W e3f4
+18 B b2b1
+19 W g2g4
+RESULT WHITE reason=resignation plies=19
+
+# GAME 49 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B b7b6
+3 W b2b4
+4 B a7a6
+5 W c2c4
+6 B d7d6
+7 W d2d4
+8 B a6a5
+9 W b4a5
+10 B b6a5
+11 W e2e4
+12 B h7h6
+13 W f2f4
+14 B e7e6
+15 W g2g4
+16 B g7g6
+17 W h2h4
+18 B g6g5
+19 W f4g5
+20 B h6g5
+21 W h4h5
+22 B f7f6
+23 W h5h6
+24 B f6f5
+25 W h6h7
+26 B f5g4
+27 W h7h8
+28 B c7c6
+RESULT BLACK reason=resignation plies=28
+
+# GAME 50 WHITE=CLIENT2 BLACK=CLIENT1
+1 W c2c4
+2 B g7g5
+3 W h2h4
+4 B g5h4
+5 W b2b3
+6 B a7a5
+7 W f2f4
+8 B b7b6
+9 W b3b4
+10 B a5b4
+11 W e2e3
+12 B c7c5
+13 W g2g3
+14 B h4g3
+15 W a2a3
+16 B g3g2
+17 W a3b4
+18 B g2g1
+19 W b4c5
+RESULT WHITE reason=resignation plies=19
+
+# GAME 51 WHITE=CLIENT1 BLACK=CLIENT2
+1 W c2c4
+2 B a7a5
+3 W a2a4
+4 B d7d5
+5 W c4d5
+6 B h7h5
+7 W b2b3
+8 B g7g6
+9 W d2d4
+10 B g6g5
+11 W e2e4
+12 B f7f6
+13 W f2f3
+14 B b7b6
+15 W g2g4
+16 B h5g4
+17 W f3g4
+18 B b6b5
+19 W a4b5
+20 B c7c6
+21 W b5c6
+22 B f6f5
+23 W e4f5
+24 B a5a4
+25 W b3a4
+26 B e7e6
+27 W h2h3
+28 B e6f5
+29 W g4f5
+30 B g5g4
+31 W h3g4
+RESULT WHITE reason=resignation plies=31
+
+# GAME 52 WHITE=CLIENT2 BLACK=CLIENT1
+1 W c2c3
+2 B d7d5
+3 W c3c4
+4 B d5c4
+5 W e2e4
+6 B a7a5
+7 W g2g4
+8 B a5a4
+9 W g4g5
+10 B b7b5
+11 W b2b3
+12 B a4b3
+13 W a2b3
+14 B c4b3
+15 W e4e5
+16 B b3b2
+17 W e5e6
+18 B b2b1
+19 W e6f7
+RESULT WHITE reason=resignation plies=19
+
+# GAME 53 WHITE=CLIENT1 BLACK=CLIENT2
+1 W c2c3
+2 B d7d5
+3 W a2a4
+4 B e7e6
+5 W b2b4
+6 B f7f6
+7 W d2d4
+8 B b7b5
+9 W a4b5
+10 B c7c5
+11 W b5c6
+12 B c5d4
+13 W c6c7
+14 B d4c3
+15 W c7c8
+16 B d5d4
+RESULT BLACK reason=resignation plies=16
+
+# GAME 54 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a4
+2 B b7b5
+3 W a4b5
+4 B d7d5
+5 W c2c4
+6 B d5c4
+7 W f2f3
+8 B e7e5
+9 W e2e4
+10 B f7f6
+11 W h2h3
+12 B g7g5
+13 W b5b6
+14 B a7b6
+15 W b2b3
+16 B c4b3
+17 W d2d3
+18 B b3b2
+19 W h3h4
+20 B b2b1
+21 W h4g5
+RESULT WHITE reason=resignation plies=21
+
+# GAME 55 WHITE=CLIENT1 BLACK=CLIENT2
+1 W e2e3
+2 B d7d5
+3 W a2a4
+4 B a7a5
+5 W b2b3
+6 B c7c6
+7 W c2c4
+8 B d5c4
+9 W b3c4
+10 B f7f6
+11 W d2d4
+12 B b7b5
+13 W a4b5
+14 B c6b5
+15 W c4b5
+16 B h7h5
+17 W b5b6
+18 B f6f5
+19 W b6b7
+20 B g7g5
+21 W b7b8
+22 B h5h4
+RESULT BLACK reason=resignation plies=22
+
+# GAME 56 WHITE=CLIENT2 BLACK=CLIENT1
+1 W e2e4
+2 B h7h5
+3 W a2a4
+4 B h5h4
+5 W b2b3
+6 B a7a5
+7 W g2g4
+8 B h4h3
+9 W g4g5
+10 B b7b6
+11 W g5g6
+12 B f7g6
+13 W e4e5
+14 B g6g5
+15 W f2f4
+16 B g5f4
+17 W d2d3
+18 B f4f3
+19 W b3b4
+20 B f3f2
+21 W b4a5
+22 B f2f1
+23 W a5b6
+RESULT WHITE reason=resignation plies=23
+
+# GAME 57 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a3
+2 B c7c6
+3 W b2b4
+4 B b7b5
+5 W c2c3
+6 B e7e5
+7 W d2d4
+8 B e5d4
+9 W c3d4
+10 B d7d5
+11 W e2e4
+12 B d5e4
+13 W f2f3
+14 B e4f3
+15 W g2f3
+16 B a7a6
+17 W h2h4
+18 B h7h5
+19 W a3a4
+20 B b5a4
+21 W f3f4
+22 B a6a5
+23 W b4a5
+24 B g7g6
+25 W a5a6
+26 B g6g5
+27 W a6a7
+28 B g5h4
+29 W a7a8
+30 B c6c5
+RESULT BLACK reason=resignation plies=30
+
+# GAME 58 WHITE=CLIENT2 BLACK=CLIENT1
+1 W g2g4
+2 B a7a6
+3 W g4g5
+4 B a6a5
+5 W f2f4
+6 B a5a4
+7 W e2e3
+8 B a4a3
+9 W b2a3
+10 B b7b5
+11 W h2h4
+12 B b5b4
+13 W a3b4
+14 B c7c5
+15 W b4c5
+16 B d7d6
+17 W c5d6
+18 B e7d6
+19 W e3e4
+20 B d6d5
+21 W e4d5
+22 B f7f5
+23 W d2d3
+24 B g7g6
+25 W c2c3
+26 B h7h5
+27 W a2a3
+RESULT WHITE reason=resignation plies=27
+
+# GAME 59 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a3
+2 B e7e5
+3 W b2b4
+4 B b7b5
+5 W c2c4
+6 B b5c4
+7 W d2d3
+8 B c4d3
+9 W e2d3
+10 B a7a6
+11 W f2f4
+12 B e5f4
+13 W g2g3
+14 B f4g3
+15 W h2g3
+16 B c7c6
+17 W a3a4
+18 B g7g5
+19 W d3d4
+20 B f7f6
+21 W g3g4
+22 B d7d6
+23 W a4a5
+24 B h7h6
+25 W b4b5
+26 B a6b5
+27 W a5a6
+28 B h6h5
+29 W a6a7
+30 B h5g4
+31 W a7a8
+32 B c6c5
+RESULT BLACK reason=resignation plies=32
+
+# GAME 60 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a4
+2 B b7b5
+3 W a4b5
+4 B a7a5
+5 W h2h4
+6 B a5a4
+7 W h4h5
+8 B a4a3
+9 W b2a3
+10 B c7c6
+11 W b5c6
+12 B d7c6
+13 W f2f4
+14 B c6c5
+15 W e2e4
+16 B c5c4
+17 W f4f5
+18 B c4c3
+19 W d2c3
+20 B e7e5
+21 W a3a4
+22 B f7f6
+23 W g2g3
+24 B g7g5
+25 W a4a5
+26 B g5g4
+27 W c3c4
+28 B h7h6
+29 W c4c5
+RESULT WHITE reason=resignation plies=29
+
+# GAME 61 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B d7d5
+3 W b2b4
+4 B f7f5
+5 W c2c4
+6 B d5c4
+7 W d2d3
+8 B c4d3
+9 W e2d3
+10 B g7g5
+11 W f2f4
+12 B g5f4
+13 W g2g3
+14 B f4g3
+15 W h2g3
+16 B h7h6
+17 W d3d4
+18 B c7c6
+19 W g3g4
+20 B f5g4
+21 W a4a5
+22 B e7e6
+23 W b4b5
+24 B c6b5
+25 W d4d5
+26 B e6d5
+27 W a5a6
+28 B b7a6
+RESULT BLACK reason=resignation plies=28
+
+# GAME 62 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d3
+2 B h7h6
+3 W e2e4
+4 B h6h5
+5 W g2g4
+6 B h5g4
+7 W f2f4
+8 B g4f3
+9 W b2b4
+10 B f3f2
+11 W f4f5
+12 B f2f1
+13 W c2c4
+RESULT WHITE reason=resignation plies=13
+
+# GAME 63 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d3
+2 B c7c6
+3 W a2a4
+4 B a7a6
+5 W b2b4
+6 B h7h5
+7 W c2c4
+8 B e7e6
+9 W e2e4
+10 B f7f5
+11 W e4f5
+12 B e6f5
+13 W f2f4
+14 B d7d5
+15 W c4d5
+16 B c6d5
+17 W g2g4
+18 B h5g4
+19 W h2h3
+20 B g4h3
+21 W d3d4
+22 B a6a5
+23 W b4a5
+24 B g7g6
+25 W a5a6
+26 B b7a6
+27 W a4a5
+28 B h3h2
+RESULT BLACK reason=resignation plies=28
+
+# GAME 64 WHITE=CLIENT2 BLACK=CLIENT1
+1 W f2f4
+2 B g7g5
+3 W f4g5
+4 B a7a5
+5 W c2c3
+6 B a5a4
+7 W d2d4
+8 B a4a3
+9 W b2a3
+10 B b7b5
+11 W g2g3
+12 B b5b4
+13 W a3b4
+14 B c7c5
+15 W d4c5
+16 B d7d6
+17 W c5d6
+18 B e7d6
+19 W e2e3
+20 B d6d5
+21 W e3e4
+22 B d5e4
+23 W a2a3
+24 B e4e3
+25 W b4b5
+26 B e3e2
+27 W g5g6
+28 B e2e1
+29 W g6f7
+RESULT WHITE reason=resignation plies=29
+
+# GAME 65 WHITE=CLIENT1 BLACK=CLIENT2
+1 W h2h4
+2 B d7d5
+3 W a2a4
+4 B d5d4
+5 W b2b4
+6 B b7b6
+7 W c2c3
+8 B d4c3
+9 W d2c3
+10 B c7c5
+11 W b4c5
+12 B b6c5
+13 W e2e4
+14 B h7h5
+15 W f2f4
+16 B a7a5
+17 W g2g4
+18 B h5g4
+19 W c3c4
+20 B g4g3
+21 W e4e5
+22 B f7f6
+23 W f4f5
+24 B f6e5
+25 W h4h5
+26 B e7e6
+27 W f5e6
+28 B g3g2
+29 W h5h6
+30 B g2g1
+RESULT BLACK reason=resignation plies=30
+
+# GAME 66 WHITE=CLIENT2 BLACK=CLIENT1
+1 W e2e4
+2 B c7c5
+3 W h2h4
+4 B c5c4
+5 W g2g4
+6 B c4c3
+7 W d2c3
+8 B a7a5
+9 W b2b4
+10 B a5b4
+11 W c3b4
+12 B b7b5
+13 W h4h5
+14 B d7d5
+15 W e4d5
+16 B e7e6
+17 W d5e6
+18 B f7e6
+19 W c2c3
+20 B e6e5
+21 W c3c4
+22 B b5c4
+23 W h5h6
+24 B c4c3
+25 W h6g7
+26 B c3c2
+27 W g7g8
+RESULT WHITE reason=resignation plies=27
+
+# GAME 67 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a3
+2 B g7g5
+3 W b2b4
+4 B d7d6
+5 W c2c4
+6 B e7e6
+7 W d2d4
+8 B f7f5
+9 W e2e4
+10 B f5e4
+11 W f2f3
+12 B e4f3
+13 W g2f3
+14 B h7h6
+15 W h2h4
+16 B g5h4
+17 W a3a4
+18 B a7a6
+19 W f3f4
+20 B h6h5
+21 W a4a5
+22 B h4h3
+23 W b4b5
+24 B a6b5
+25 W c4b5
+26 B d6d5
+27 W f4f5
+28 B e6f5
+29 W a5a6
+30 B b7a6
+31 W b5a6
+32 B f5f4
+33 W a6a7
+34 B c7c5
+35 W a7a8
+36 B c5d4
+RESULT BLACK reason=resignation plies=36
+
+# GAME 68 WHITE=CLIENT2 BLACK=CLIENT1
+1 W b2b4
+2 B b7b6
+3 W a2a3
+4 B b6b5
+5 W f2f3
+6 B a7a5
+7 W b4a5
+8 B b5b4
+9 W a3b4
+10 B c7c5
+11 W b4c5
+12 B d7d5
+13 W d2d3
+14 B d5d4
+15 W e2e4
+16 B d4e3
+17 W f3f4
+18 B e3e2
+19 W h2h4
+20 B e2e1
+21 W d3d4
+RESULT WHITE reason=resignation plies=21
+
+# GAME 69 WHITE=CLIENT1 BLACK=CLIENT2
+1 W f2f4
+2 B f7f5
+3 W a2a4
+4 B d7d5
+5 W b2b4
+6 B g7g5
+7 W f4g5
+8 B c7c5
+9 W b4c5
+10 B e7e6
+11 W c2c4
+12 B d5c4
+13 W d2d3
+14 B c4d3
+15 W e2d3
+16 B h7h6
+17 W g5h6
+18 B e6e5
+19 W h6h7
+20 B a7a6
+21 W h7h8
+22 B e5e4
+RESULT BLACK reason=resignation plies=22
+
+# GAME 70 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a4
+2 B f7f5
+3 W c2c4
+4 B f5f4
+5 W c4c5
+6 B f4f3
+7 W g2f3
+8 B a7a5
+9 W e2e4
+10 B b7b5
+11 W a4b5
+12 B a5a4
+13 W d2d3
+14 B a4a3
+15 W b2a3
+16 B c7c6
+17 W b5c6
+18 B d7c6
+19 W f3f4
+20 B e7e5
+21 W f4e5
+22 B g7g5
+23 W h2h3
+24 B g5g4
+25 W h3g4
+26 B h7h5
+27 W g4h5
+RESULT WHITE reason=resignation plies=27
+
+# GAME 71 WHITE=CLIENT1 BLACK=CLIENT2
+1 W c2c3
+2 B e7e5
+3 W a2a4
+4 B e5e4
+5 W b2b4
+6 B c7c5
+7 W b4c5
+8 B h7h5
+9 W d2d4
+10 B b7b6
+11 W c5b6
+12 B a7b6
+13 W e2e3
+14 B h5h4
+15 W f2f4
+16 B b6b5
+17 W a4b5
+18 B g7g5
+19 W b5b6
+20 B g5f4
+21 W b6b7
+22 B f4e3
+23 W b7b8
+24 B d7d5
+RESULT BLACK reason=resignation plies=24
+
+# GAME 72 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a3
+2 B b7b5
+3 W d2d3
+4 B b5b4
+5 W a3b4
+6 B a7a5
+7 W b4a5
+8 B c7c5
+9 W e2e4
+10 B c5c4
+11 W d3c4
+12 B d7d5
+13 W c4d5
+14 B e7e5
+15 W d5d6
+16 B f7f5
+17 W e4f5
+18 B e5e4
+19 W b2b4
+20 B e4e3
+21 W f2e3
+22 B g7g5
+23 W c2c3
+24 B g5g4
+25 W a5a6
+26 B g4g3
+27 W h2g3
+28 B h7h5
+29 W b4b5
+30 B h5h4
+31 W g3h4
+RESULT WHITE reason=resignation plies=31
+
+# GAME 73 WHITE=CLIENT1 BLACK=CLIENT2
+1 W h2h3
+2 B c7c5
+3 W a2a4
+4 B b7b5
+5 W a4b5
+6 B g7g5
+7 W b2b4
+8 B c5b4
+9 W c2c3
+10 B b4c3
+11 W d2c3
+12 B e7e5
+13 W e2e4
+14 B d7d6
+15 W f2f4
+16 B e5f4
+17 W g2g3
+18 B f4g3
+19 W c3c4
+20 B g5g4
+21 W h3g4
+22 B f7f5
+23 W c4c5
+24 B d6c5
+25 W e4f5
+26 B c5c4
+27 W g4g5
+28 B c4c3
+29 W b5b6
+30 B a7b6
+31 W f5f6
+32 B b6b5
+33 W f6f7
+34 B b5b4
+35 W f7f8
+36 B g3g2
+RESULT BLACK reason=resignation plies=36
+
+# GAME 74 WHITE=CLIENT2 BLACK=CLIENT1
+1 W c2c3
+2 B e7e5
+3 W c3c4
+4 B e5e4
+5 W g2g4
+6 B e4e3
+7 W d2e3
+8 B a7a5
+9 W c4c5
+10 B a5a4
+11 W g4g5
+12 B a4a3
+13 W b2a3
+14 B b7b5
+15 W h2h3
+16 B b5b4
+17 W a3b4
+18 B c7c6
+19 W g5g6
+20 B d7d5
+21 W g6f7
+22 B d5d4
+23 W f7f8
+RESULT WHITE reason=resignation plies=23
+
+# GAME 75 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d3
+2 B d7d6
+3 W a2a4
+4 B b7b5
+5 W a4b5
+6 B f7f6
+7 W b2b4
+8 B a7a6
+9 W b5a6
+10 B g7g6
+11 W a6a7
+12 B e7e6
+13 W a7a8
+14 B c7c6
+RESULT BLACK reason=resignation plies=14
+
+# GAME 76 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d3
+2 B g7g5
+3 W f2f4
+4 B g5f4
+5 W a2a4
+6 B f4f3
+7 W e2f3
+8 B a7a5
+9 W h2h4
+10 B b7b5
+11 W a4b5
+12 B a5a4
+13 W c2c4
+14 B a4a3
+15 W b2a3
+16 B c7c6
+17 W b5c6
+18 B d7c6
+19 W a3a4
+20 B c6c5
+21 W h4h5
+22 B e7e5
+23 W a4a5
+24 B e5e4
+25 W f3e4
+26 B f7f5
+27 W e4f5
+28 B h7h6
+29 W f5f6
+RESULT WHITE reason=resignation plies=29
+
+# GAME 77 WHITE=CLIENT1 BLACK=CLIENT2
+1 W f2f4
+2 B e7e5
+3 W f4e5
+4 B c7c5
+5 W a2a4
+6 B h7h5
+7 W b2b4
+8 B c5b4
+9 W c2c3
+10 B b4c3
+11 W d2c3
+12 B b7b6
+13 W e2e4
+14 B g7g5
+15 W g2g4
+16 B h5g4
+17 W h2h3
+18 B g4h3
+19 W c3c4
+20 B b6b5
+21 W a4b5
+22 B d7d5
+23 W e5d6
+24 B d5c4
+25 W d6d7
+26 B c4c3
+27 W d7d8
+28 B a7a5
+RESULT BLACK reason=resignation plies=28
+
+# GAME 78 WHITE=CLIENT2 BLACK=CLIENT1
+1 W a2a4
+2 B d7d6
+3 W d2d4
+4 B d6d5
+5 W g2g3
+6 B a7a5
+7 W e2e4
+8 B d5e4
+9 W h2h4
+10 B e4e3
+11 W f2e3
+12 B b7b5
+13 W a4b5
+14 B a5a4
+15 W c2c4
+16 B a4a3
+17 W b2a3
+18 B c7c6
+19 W b5c6
+20 B e7e5
+21 W d4e5
+22 B f7f5
+23 W g3g4
+24 B f5g4
+25 W c4c5
+26 B g4g3
+27 W h4h5
+28 B g3g2
+29 W a3a4
+30 B g2g1
+31 W a4a5
+RESULT WHITE reason=resignation plies=31
+
+# GAME 79 WHITE=CLIENT1 BLACK=CLIENT2
+1 W f2f3
+2 B a7a5
+3 W a2a4
+4 B d7d6
+5 W b2b4
+6 B a5b4
+7 W c2c3
+8 B b4c3
+9 W d2c3
+10 B g7g5
+11 W e2e4
+12 B h7h6
+13 W g2g4
+14 B h6h5
+15 W g4h5
+16 B e7e5
+17 W h5h6
+18 B f7f5
+19 W h6h7
+20 B f5e4
+21 W h7h8
+22 B e4f3
+RESULT BLACK reason=resignation plies=22
+
+# GAME 80 WHITE=CLIENT2 BLACK=CLIENT1
+1 W e2e4
+2 B h7h5
+3 W d2d3
+4 B h5h4
+5 W a2a3
+6 B h4h3
+7 W g2h3
+8 B a7a5
+9 W a3a4
+10 B b7b5
+11 W a4b5
+12 B a5a4
+13 W h3h4
+14 B a4a3
+15 W b2a3
+16 B c7c6
+17 W b5c6
+18 B d7c6
+19 W f2f4
+20 B c6c5
+21 W e4e5
+22 B c5c4
+23 W d3c4
+24 B e7e6
+25 W f4f5
+26 B e6f5
+27 W h2h3
+28 B f5f4
+29 W c2c3
+30 B f4f3
+31 W h4h5
+32 B f3f2
+33 W c4c5
+34 B f2f1
+35 W h5h6
+RESULT WHITE reason=resignation plies=35
+
+# GAME 81 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B f7f5
+3 W b2b4
+4 B b7b5
+5 W a4b5
+6 B g7g6
+7 W c2c4
+8 B h7h6
+9 W d2d4
+10 B a7a5
+11 W b5a6
+12 B a5b4
+13 W a6a7
+14 B d7d6
+15 W a7a8
+16 B c7c6
+RESULT BLACK reason=resignation plies=16
+
+# GAME 82 WHITE=CLIENT2 BLACK=CLIENT1
+1 W c2c4
+2 B a7a5
+3 W a2a4
+4 B b7b5
+5 W a4b5
+6 B a5a4
+7 W c4c5
+8 B a4a3
+9 W b2a3
+10 B c7c6
+11 W b5c6
+12 B d7c6
+13 W e2e3
+14 B e7e5
+15 W d2d4
+16 B e5d4
+17 W e3d4
+18 B f7f5
+19 W f2f4
+20 B g7g5
+21 W f4g5
+22 B f5f4
+23 W a3a4
+24 B f4f3
+25 W g2f3
+26 B h7h6
+27 W g5h6
+RESULT WHITE reason=resignation plies=27
+
+# GAME 83 WHITE=CLIENT1 BLACK=CLIENT2
+1 W c2c3
+2 B a7a5
+3 W a2a4
+4 B h7h5
+5 W b2b4
+6 B a5b4
+7 W c3b4
+8 B g7g5
+9 W d2d4
+10 B c7c5
+11 W b4c5
+12 B b7b6
+13 W c5b6
+14 B d7d6
+15 W b6b7
+16 B e7e6
+17 W b7b8
+18 B f7f5
+RESULT BLACK reason=resignation plies=18
+
+# GAME 84 WHITE=CLIENT2 BLACK=CLIENT1
+1 W e2e4
+2 B d7d6
+3 W a2a3
+4 B d6d5
+5 W e4d5
+6 B a7a5
+7 W g2g4
+8 B a5a4
+9 W c2c4
+10 B b7b5
+11 W c4b5
+12 B c7c6
+13 W b5c6
+14 B e7e5
+15 W g4g5
+16 B e5e4
+17 W d2d3
+18 B e4d3
+19 W g5g6
+20 B d3d2
+21 W g6h7
+22 B d2d1
+23 W h7h8
+RESULT WHITE reason=resignation plies=23
+
+# GAME 85 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d4
+2 B b7b6
+3 W a2a4
+4 B d7d5
+5 W b2b4
+6 B b6b5
+7 W a4b5
+8 B c7c5
+9 W b5c6
+10 B c5b4
+11 W c6c7
+12 B g7g6
+13 W c7c8
+14 B b4b3
+RESULT BLACK reason=resignation plies=14
+
+# GAME 86 WHITE=CLIENT2 BLACK=CLIENT1
+1 W c2c4
+2 B g7g5
+3 W e2e3
+4 B g5g4
+5 W b2b4
+6 B g4g3
+7 W h2g3
+8 B a7a5
+9 W b4a5
+10 B b7b6
+11 W a5b6
+12 B c7b6
+13 W f2f3
+14 B b6b5
+15 W c4b5
+16 B d7d5
+17 W e3e4
+18 B d5e4
+19 W f3e4
+20 B e7e5
+21 W g3g4
+22 B f7f5
+23 W g4f5
+24 B h7h5
+25 W g2g4
+26 B h5g4
+27 W d2d4
+28 B g4g3
+29 W d4e5
+30 B g3g2
+31 W e5e6
+32 B g2g1
+33 W a2a3
+RESULT WHITE reason=resignation plies=33
+
+# GAME 87 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d4
+2 B f7f5
+3 W a2a4
+4 B b7b6
+5 W b2b4
+6 B a7a5
+7 W b4a5
+8 B b6a5
+9 W c2c4
+10 B g7g5
+11 W e2e4
+12 B f5e4
+13 W f2f3
+14 B e4f3
+15 W g2f3
+16 B e7e5
+17 W d4e5
+18 B d7d5
+19 W e5e6
+20 B d5c4
+21 W e6e7
+22 B h7h6
+23 W e7e8
+24 B h6h5
+RESULT BLACK reason=resignation plies=24
+
+# GAME 88 WHITE=CLIENT2 BLACK=CLIENT1
+1 W c2c3
+2 B g7g6
+3 W a2a3
+4 B g6g5
+5 W c3c4
+6 B g5g4
+7 W a3a4
+8 B g4g3
+9 W f2g3
+10 B a7a5
+11 W e2e3
+12 B b7b5
+13 W a4b5
+14 B a5a4
+15 W d2d4
+16 B a4a3
+17 W b2a3
+18 B c7c6
+19 W b5c6
+20 B d7c6
+21 W a3a4
+22 B c6c5
+23 W d4c5
+24 B e7e5
+25 W a4a5
+26 B e5e4
+27 W h2h4
+28 B f7f5
+29 W c5c6
+30 B f5f4
+31 W e3f4
+32 B e4e3
+33 W f4f5
+34 B e3e2
+35 W a5a6
+36 B e2e1
+37 W c4c5
+RESULT WHITE reason=resignation plies=37
+
+# GAME 89 WHITE=CLIENT1 BLACK=CLIENT2
+1 W g2g4
+2 B b7b5
+3 W a2a4
+4 B b5a4
+5 W b2b3
+6 B a4b3
+7 W c2b3
+8 B f7f6
+9 W d2d4
+10 B a7a6
+11 W e2e4
+12 B g7g6
+13 W f2f4
+14 B g6g5
+15 W f4g5
+16 B f6g5
+17 W h2h4
+18 B g5h4
+19 W b3b4
+20 B h4h3
+21 W b4b5
+22 B a6b5
+23 W d4d5
+24 B e7e6
+25 W e4e5
+26 B e6d5
+27 W g4g5
+28 B d7d6
+29 W e5d6
+30 B c7d6
+31 W g5g6
+32 B h7g6
+RESULT BLACK reason=resignation plies=32
+
+# GAME 90 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d4
+2 B g7g6
+3 W b2b4
+4 B g6g5
+5 W c2c3
+6 B g5g4
+7 W h2h4
+8 B g4h3
+9 W g2h3
+10 B a7a5
+11 W b4a5
+12 B b7b6
+13 W a5b6
+14 B c7b6
+15 W f2f4
+16 B b6b5
+17 W e2e3
+18 B b5b4
+19 W c3b4
+20 B d7d5
+21 W h4h5
+22 B e7e5
+23 W f4e5
+24 B f7f6
+25 W e5f6
+26 B h7h6
+27 W h3h4
+RESULT WHITE reason=resignation plies=27
+
+# GAME 91 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d3
+2 B c7c6
+3 W a2a4
+4 B e7e5
+5 W b2b4
+6 B d7d6
+7 W c2c4
+8 B b7b6
+9 W e2e4
+10 B g7g5
+11 W f2f4
+12 B g5f4
+13 W g2g3
+14 B f4g3
+15 W h2g3
+16 B d6d5
+17 W c4d5
+18 B c6d5
+19 W e4d5
+20 B f7f6
+21 W d5d6
+22 B b6b5
+23 W d6d7
+24 B b5a4
+25 W d7d8
+26 B h7h5
+RESULT BLACK reason=resignation plies=26
+
+# GAME 92 WHITE=CLIENT2 BLACK=CLIENT1
+1 W b2b4
+2 B g7g6
+3 W d2d3
+4 B g6g5
+5 W e2e4
+6 B g5g4
+7 W e4e5
+8 B g4g3
+9 W f2g3
+10 B a7a5
+11 W b4a5
+12 B b7b6
+13 W a5b6
+14 B c7b6
+15 W a2a3
+16 B b6b5
+17 W g3g4
+18 B b5b4
+19 W a3b4
+20 B d7d5
+21 W c2c4
+22 B d5c4
+23 W d3c4
+24 B e7e6
+25 W b4b5
+26 B f7f5
+27 W g4f5
+28 B e6f5
+29 W g2g3
+30 B f5f4
+31 W g3f4
+32 B h7h5
+33 W c4c5
+34 B h5h4
+35 W f4f5
+36 B h4h3
+37 W b5b6
+RESULT WHITE reason=resignation plies=37
+
+# GAME 93 WHITE=CLIENT1 BLACK=CLIENT2
+1 W f2f3
+2 B f7f5
+3 W a2a4
+4 B c7c5
+5 W b2b4
+6 B c5b4
+7 W c2c3
+8 B b4c3
+9 W d2c3
+10 B e7e5
+11 W e2e4
+12 B f5e4
+13 W f3e4
+14 B d7d5
+15 W e4d5
+16 B g7g5
+17 W d5d6
+18 B h7h5
+19 W d6d7
+20 B h5h4
+21 W d7d8
+22 B e5e4
+RESULT BLACK reason=resignation plies=22
+
+# GAME 94 WHITE=CLIENT2 BLACK=CLIENT1
+1 W c2c3
+2 B g7g5
+3 W d2d3
+4 B g5g4
+5 W b2b4
+6 B g4g3
+7 W f2g3
+8 B a7a5
+9 W b4a5
+10 B b7b6
+11 W a5b6
+12 B c7b6
+13 W c3c4
+14 B b6b5
+15 W c4b5
+16 B d7d5
+17 W a2a4
+18 B d5d4
+19 W e2e3
+20 B d4e3
+21 W g3g4
+22 B e3e2
+23 W h2h4
+24 B e2e1
+25 W b5b6
+RESULT WHITE reason=resignation plies=25
+
+# GAME 95 WHITE=CLIENT1 BLACK=CLIENT2
+1 W a2a4
+2 B a7a6
+3 W b2b4
+4 B d7d6
+5 W c2c4
+6 B g7g5
+7 W d2d4
+8 B d6d5
+9 W c4d5
+10 B b7b6
+11 W e2e4
+12 B g5g4
+13 W f2f4
+14 B b6b5
+15 W a4b5
+16 B a6b5
+17 W g2g3
+18 B h7h5
+19 W h2h4
+20 B f7f5
+21 W e4f5
+22 B e7e5
+23 W f5e6
+24 B e5d4
+25 W e6e7
+26 B d4d3
+27 W e7e8
+28 B c7c6
+RESULT BLACK reason=resignation plies=28
+
+# GAME 96 WHITE=CLIENT2 BLACK=CLIENT1
+1 W h2h4
+2 B b7b5
+3 W d2d4
+4 B b5b4
+5 W a2a4
+6 B b4a3
+7 W b2a3
+8 B a7a5
+9 W c2c3
+10 B a5a4
+11 W g2g4
+12 B c7c5
+13 W d4c5
+14 B d7d6
+15 W c5d6
+16 B e7d6
+17 W f2f4
+18 B d6d5
+19 W g4g5
+20 B d5d4
+21 W c3d4
+22 B f7f5
+23 W e2e3
+24 B g7g6
+25 W d4d5
+26 B h7h5
+27 W d5d6
+RESULT WHITE reason=resignation plies=27
+
+# GAME 97 WHITE=CLIENT1 BLACK=CLIENT2
+1 W d2d4
+2 B b7b6
+3 W a2a4
+4 B f7f5
+5 W b2b4
+6 B e7e5
+7 W d4e5
+8 B g7g5
+9 W c2c4
+10 B f5f4
+11 W e2e4
+12 B c7c5
+13 W b4c5
+14 B b6c5
+15 W f2f3
+16 B h7h6
+17 W g2g4
+18 B d7d5
+19 W e5d6
+20 B d5e4
+21 W d6d7
+22 B e4f3
+23 W d7d8
+24 B f3f2
+RESULT BLACK reason=resignation plies=24
+
+# GAME 98 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d4
+2 B a7a6
+3 W a2a4
+4 B a6a5
+5 W h2h4
+6 B b7b5
+7 W a4b5
+8 B a5a4
+9 W c2c3
+10 B a4a3
+11 W b2a3
+12 B c7c6
+13 W b5c6
+14 B d7c6
+15 W f2f3
+16 B c6c5
+17 W d4c5
+18 B e7e5
+19 W e2e3
+20 B e5e4
+21 W f3e4
+22 B f7f5
+23 W e4f5
+24 B g7g5
+25 W h4g5
+26 B h7h5
+27 W c3c4
+28 B h5h4
+29 W f5f6
+30 B h4h3
+31 W g2h3
+RESULT WHITE reason=resignation plies=31
+
+# GAME 99 WHITE=CLIENT1 BLACK=CLIENT2
+1 W f2f4
+2 B d7d5
+3 W a2a4
+4 B e7e6
+5 W b2b4
+6 B e6e5
+7 W f4e5
+8 B d5d4
+9 W c2c4
+10 B a7a6
+11 W d2d3
+12 B a6a5
+13 W b4a5
+14 B f7f5
+15 W e5e6
+16 B f5f4
+17 W e6e7
+18 B h7h5
+19 W e7e8
+20 B b7b5
+RESULT BLACK reason=resignation plies=20
+
+# GAME 100 WHITE=CLIENT2 BLACK=CLIENT1
+1 W d2d4
+2 B c7c6
+3 W d4d5
+4 B c6d5
+5 W a2a4
+6 B d5d4
+7 W b2b3
+8 B d4d3
+9 W e2d3
+10 B a7a5
+11 W d3d4
+12 B b7b5
+13 W a4b5
+14 B a5a4
+15 W b3a4
+16 B d7d5
+17 W c2c4
+18 B d5c4
+19 W d4d5
+20 B c4c3
+21 W b5b6
+22 B c3c2
+23 W d5d6
+24 B c2c1
+25 W d6e7
+RESULT WHITE reason=resignation plies=25
+
+
+# ELO CLIENT1 1484.8 CLIENT2 1515.2
