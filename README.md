@@ -1,5 +1,5 @@
 
-# Pawn Chess Agent (TwoFlags) - How to Run
+# Two Flags Pawn Chess Agent - How to Run
 
 This project contains:
 - **Source code** (Python): `client.py`, `ab_agent.py`, `twoflags/` (game logic)
